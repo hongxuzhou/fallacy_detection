@@ -1,14 +1,19 @@
 """
 This script uses batch process to solve the problem of input exceeding the max length of model input. It also stores the raw output for better diagonisis.
-This script is based on `pilot_test_batch_process.py` and addes the two prompts based on Pragma-Dielactical Appraoch and Periodic Table of Argument" 
+This script is based on `pilot_test_batch_process.py` and adds the two prompts based on Pragma-Dialectical Approach and Periodic Table of Argument" 
 
+23/May update:
+    1. Regarding the output format issue, adjustments are made to:
+        - The prompts are modified to specify only one primary fallacy type in the output.
+        - Trying to implement `Outlines` to achieve rigid output format, but need to consider the interface with the context. 
+        
 20-May Adjustments:
     1. Two theoretical prompts added. The thinking part of the output shows the model tries to follow the thinking path defined by the prompt. 
-    2. The default batch size is changed to **1** from **5** for 1 prompt + 1 context + 1 example format. CAUSION: This cuases the processing time to be much longer. You need at least 5 hours on Habrok
+    2. The default batch size is changed to **1** from **5** for 1 prompt + 1 context + 1 example format. CAUTION: This causes the processing time to be much longer. You need at least 5 hours on Habrok
 
-Knonwn issues:
+Known issues:
     1. format of model output: The more detailed prompts may exacerbate model output format confusion. This causes the evaluation method useless since results can't be correctly parsed. Specifically, thinking content may leak to response content. 
-    2. infinity thinking loop: as pragma-dialectical results 161 and 16 shows, the model may fall into the infinite thinking process untill the output exceeds the max length and gets truncated. 
+    2. infinity thinking loop: as pragma-dialectical results 161 and 16 shows, the model may fall into the infinite thinking process until the output exceeds the max length and gets truncated. 
     3. overthinking: as pragma-dialectical 1 shows, the model can be more hesitate than with the original prompt, resulting in violating the format requirements and adding a "final classification" which is not helpful. 
 """ 
 
@@ -159,15 +164,16 @@ Where [NUMBER] is a single digit (0-6) representing your classification.
             prompt += f"STATEMENT {i}: {example}\n\n"
         
     elif prompt_type == "p_d":
-        prompt = """You are an expert in argumentation analysis using the pragma-dialectical framework. Your task is to analyze statements and identify fallacies that hinder the resolution of disputes in critical discussion.
+        prompt = """You are an expert in argumentation analysis using the pragma-dialectical framework. Your task is to analyze statements and identify the PRIMARY fallacy that hinders the resolution of disputes in critical discussion.
 
 ## TASK OVERVIEW
 Analyze each statement to:
 1. Determine whether it violates any rules of critical discussion (fallacy detection)
-2. If fallacious, identify which specific rule(s) are violated and classify the fallacy type(s)
+2. If fallacious, identify the MOST SIGNIFICANT rule violation and classify the PRIMARY fallacy type
 3. Provide a brief justification for your analysis
 
 ## THEORETICAL FOUNDATION: PRAGMA-DIALECTICAL RULES
+
 In pragma-dialectics, fallacies are violations of rules for critical discussion. Analyze each statement against these ten rules:
 
 1. FREEDOM RULE: Parties must not prevent each other from advancing or questioning standpoints
@@ -209,22 +215,22 @@ STEP 1: DETECTION
 - If one or more rules are violated, proceed to classification
 
 STEP 2: CLASSIFICATION
-- Identify ALL rules that are violated (a statement may contain multiple fallacies)
-- For each violation, specify the fallacy type based on the pragma-dialectical framework
-- When multiple fallacies are present, list them in order of significance
+- Identify the PRIMARY rule violation (the most significant one)
+- While multiple violations may exist, focus on the most prominent fallacy
+- Secondary violations can be mentioned in your analysis but not in the classification
 
 STEP 3: JUSTIFICATION
-- Provide a brief explanation of why the statement violates specific rules
-- If multiple fallacies are present, explain each one separately
+- Provide a brief explanation of why the statement violates the primary rule
+- You may note other violations in your analysis, but keep the focus on the main fallacy
 
 ## OUTPUT FORMAT
 For each statement, provide your analysis in this format:
 
 Statement: [Original statement]
-Analysis: [Your pragma-dialectical analysis including violated rules and justification]
+Analysis: [Your pragma-dialectical analysis focusing on the primary violation, though you may briefly note secondary issues]
 Classification: [NUMBER]
 
-Where [NUMBER] is:
+Where [NUMBER] is a SINGLE DIGIT representing the PRIMARY fallacy:
 0 - Appeal to Emotion (violations of relevance rule with emotional appeals, ad baculum, ad misericordiam)
 1 - Appeal to Authority (violations of relevance rule with inappropriate appeals to authority)
 2 - Ad Hominem (violations of freedom rule through personal attacks)
@@ -235,11 +241,10 @@ Where [NUMBER] is:
 
 ## IMPORTANT CONSIDERATIONS
 - Focus on the statement itself, not surrounding context
-- A statement may contain multiple fallacies - identify ALL of them
-- Be careful not to overinterpret - identify only clear violations
-- For borderline cases, explain your reasoning
+- When multiple fallacies exist, classify based on the MOST SIGNIFICANT violation
+- Be careful not to over-interpret - identify only clear violations
+- For borderline cases, explain your reasoning for choosing the primary fallacy
 - Maintain consistency in your analysis across different statements
-
 """
 
         # Again, add examples
@@ -248,14 +253,14 @@ Where [NUMBER] is:
 
     elif prompt_type == "pta":
         # Periodic table of arguments prompt 
-        prompt = """You are an expert in argument analysis using the Periodic Table of Arguments framework. Your task is to analyze statements, determine their argument structure, and identify fallacies based on invalid argument patterns.
+        prompt = """You are an expert in argument analysis using the Periodic Table of Arguments framework. Your task is to analyze statements, determine their argument structure, and identify the PRIMARY fallacy based on invalid argument patterns.
 
 ## TASK OVERVIEW
 For each statement, you will:
 1. Deconstruct the statement into its argumentative components
 2. Identify the argument's structural properties (form, substance, and lever)
 3. Determine if the argument follows a valid pattern or contains fallacies
-4. If fallacious, explain which specific pattern violations occur
+4. If fallacious, identify the PRIMARY pattern violation
 
 ## THEORETICAL FOUNDATION: PERIODIC TABLE OF ARGUMENTS
 The PTA classifies arguments based on three parameters:
@@ -278,7 +283,6 @@ The PTA classifies arguments based on three parameters:
    - In DELTA form: Relationship between Z and acceptability
 
 ## FALLACY DETECTION PROCEDURE
-
 STEP 1: STATEMENT DECONSTRUCTION
 - Identify the conclusion (the claim being supported)
 - Identify the premise (the reason given to support the conclusion)
@@ -305,9 +309,9 @@ STEP 4: PATTERN EVALUATION
   * Multiple incompatible levers are combined
 
 STEP 5: FALLACY CLASSIFICATION
-- If a pattern violation exists, determine the specific fallacy based on:
-  * Which aspect of the pattern is violated
-  * What type of invalid connection is being claimed
+- If pattern violations exist, determine the PRIMARY (most significant) fallacy
+- While multiple violations may be present, focus on the most prominent one
+- Secondary violations can be noted in analysis but not in final classification
 
 ## COMMON FALLACIOUS PATTERNS
 - False Causality: Claiming Y causes X without sufficient evidence (in alpha FF arguments)
@@ -324,10 +328,10 @@ STEP 5: FALLACY CLASSIFICATION
 For each statement, provide your analysis in this format:
 
 Statement: [Original statement]
-[Your PTA structure analysis]
+[Your PTA structure analysis, focusing on the primary violation]
 Classification: [NUMBER]
 
-Where [NUMBER] is:
+Where [NUMBER] is a SINGLE DIGIT representing the PRIMARY fallacy:
 0 - Appeal to Emotion (invalid emotional lever)
 1 - Appeal to Authority (invalid authority lever)
 2 - Ad Hominem (attacks on character rather than arguments)
@@ -335,6 +339,8 @@ Where [NUMBER] is:
 4 - Slippery Slope (invalid chain of consequences)
 5 - Slogans (statements without proper argumentative structure)
 6 - Valid Argument (valid argument pattern)
+
+Note: If multiple fallacies are present, classify based on the most significant violation only.
 """
 
         for i, example in enumerate(examples, 1):
