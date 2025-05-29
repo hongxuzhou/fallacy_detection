@@ -298,7 +298,7 @@ Note: If multiple fallacies are present, classify based on the most significant 
     return prompt
 
 
-def format_date_tuple(date_str):
+def format_date_string(date_str):
     """
     Convert '1984_07Oct_1' → '1984-10-07'
     """
@@ -348,7 +348,7 @@ def add_context(prompt, sample, add_date=True, context_window=3):
 
     context_combined = f"{before} [STATEMENT] {after}".strip()
 
-    formatted_date = format_date_tuple(context_date)
+    formatted_date = format_date_string(context_date)
 
     # Final prompt
     prompt += f"\nSTATEMENT: \"{statement.strip()}\"\n"
