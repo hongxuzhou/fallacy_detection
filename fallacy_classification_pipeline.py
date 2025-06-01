@@ -313,7 +313,7 @@ def format_date_string(date_str):
     return f"{year:04d}-{month_num:02d}-{day}"
 
 
-def add_context(prompt, sample, add_date=True, context_window=3):
+def add_context(prompt, sample, add_date=True, add_context_flag=True, context_window=3):
     """Parse statement and add context"""
 
     output_format = """Respond in this exact JSON format:
@@ -354,7 +354,7 @@ def add_context(prompt, sample, add_date=True, context_window=3):
     prompt += f"\nSTATEMENT: \"{statement.strip()}\"\n"
     if add_date:
         prompt += f"\nDATE: {formatted_date}\n"
-    if context_window > 0:
+    if add_context_flag and context_window > 0:
         prompt += f"\nThe context below includes sentences before and after the statement, with [STATEMENT] marking where it originally appeared.\n"
         prompt += f"CONTEXT: {context_combined}\n"
     prompt += f"\n{output_format}"
@@ -368,7 +368,7 @@ def process_sample(model, tokenizer, sample, device, prompt_type="original"):
     # Generate prompt
     prompt = create_prompt(prompt_type)
     # Add context to prompt
-    prompt_with_context_and_statement = add_context(prompt, sample)
+    prompt_with_context_and_statement = add_context(prompt, sample, False, False, 3)
     
     print(prompt_with_context_and_statement)
     
