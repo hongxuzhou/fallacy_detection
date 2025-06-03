@@ -8,7 +8,7 @@ For the following statement, determine:
 - Ad Hominem (2): Attacking the person instead of their argument
 - False Cause (3): Assuming correlation implies causation
 - Slippery Slope (4): Claiming one event leads to extreme consequences
-- Slogans (5): Using catchy phrases instead of substantive argument
+- Slogans (5): a brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition
 
 All statements are taken from United States presidential debates between 1960 and 2020.
 """
@@ -85,7 +85,7 @@ Where [NUMBER] is a SINGLE DIGIT representing the PRIMARY fallacy:
 2 - Ad Hominem (violations of freedom rule through personal attacks)
 3 - False Cause (violations of argument scheme rule with causal fallacies)
 4 - Slippery Slope (violations of argument scheme rule with hasty slippery slope reasoning)
-5 - Slogans (violations of language use rule through empty phrases, equivocation)
+5 - Slogans (a brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition)
 
 ## IMPORTANT CONSIDERATIONS
 - Focus on the statement itself, not surrounding context
@@ -180,7 +180,7 @@ Where [NUMBER] is a SINGLE DIGIT representing the PRIMARY fallacy:
 2 - Ad Hominem (attacks on character rather than arguments)
 3 - False Cause (invalid causal lever)
 4 - Slippery Slope (invalid chain of consequences)
-5 - Slogans (statements without proper argumentative structure)
+5 - Slogans (sa brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition)
 
 Note: If multiple fallacies are present, classify based on the most significant violation only.
 """
