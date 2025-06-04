@@ -3,12 +3,12 @@ Original
 
 For the following statement, determine:
 1. The type of fallacy from the following categories:
-- Appeal to Emotion (0): Using emotion instead of logic
-- Appeal to Authority (1): Using authority figures to justify claims
-- Ad Hominem (2): Attacking the person instead of their argument
-- False Cause (3): Assuming correlation implies causation
-- Slippery Slope (4): Claiming one event leads to extreme consequences
-- Slogans (5): a brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition
+- Appeal to Emotion (0): The unessential loading of the argument with emotional language to exploit the audience emotional instinct. Sub-categories: appeal to pity, appeal to fear, loaded language (i.e., increasing the intensity of a phrase by using emotionally loaded descriptive phrases - either positive or negative) and flag waving, which appeals to the emotion of a group of people by referring to their identity. 
+- Appeal to Authority (1): When the arguer mentions the name of an authority or a group of people who agreed with her claim either without providing any relevant evidence, or by mentioning popular non-experts, or the acceptance of the claim by the majority. 
+- Ad Hominem (2): When the argument becomes an excessive attack on an arguer’s position. It covers three sub-types: general ad hominem (an attack on the character of the opponent),  tu quoque ad hominem (the “You did it first” attack) and bias ad hominem (an attack in which the arguer implies that the opponent is personally benefiting from his stance in the argument); and Name-calling, Labeling, i.e., when the arguer calls the opponent by an offensive label.  
+- False Cause (3): The misinterpretation of the correlation of two events for causation. Politicians tend to apply this technique when they affiliate the cause of an improvement to their party, or the failure to their opponent’s party.  
+- Slippery Slope (4): It suggests that an unlikely exaggerated  outcome may follow an act. The intermediate premises are usually omitted and a starting premise is usually used as the first step leading to an exaggerated claim.  
+- Slogans (5): a brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition.
 
 All statements are taken from United States presidential debates between 1960 and 2020.
 """
@@ -175,12 +175,12 @@ Statement: [Original statement]
 Classification: [NUMBER]
 
 Where [NUMBER] is a SINGLE DIGIT representing the PRIMARY fallacy:
-0 - Appeal to Emotion (invalid emotional lever)
-1 - Appeal to Authority (invalid authority lever)
-2 - Ad Hominem (attacks on character rather than arguments)
-3 - False Cause (invalid causal lever)
-4 - Slippery Slope (invalid chain of consequences)
-5 - Slogans (sa brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition)
+- Appeal to Emotion (0): The unessential loading of the argument with emotional language to exploit the audience emotional instinct. Sub-categories: appeal to pity, appeal to fear, loaded language (i.e., increasing the intensity of a phrase by using emotionally loaded descriptive phrases - either positive or negative) and flag waving, which appeals to the emotion of a group of people by referring to their identity. 
+- Appeal to Authority (1): When the arguer mentions the name of an authority or a group of people who agreed with her claim either without providing any relevant evidence, or by mentioning popular non-experts, or the acceptance of the claim by the majority. 
+- Ad Hominem (2): When the argument becomes an excessive attack on an arguer’s position. It covers three sub-types: general ad hominem (an attack on the character of the opponent),  tu quoque ad hominem (the “You did it first” attack) and bias ad hominem (an attack in which the arguer implies that the opponent is personally benefiting from his stance in the argument); and Name-calling, Labeling, i.e., when the arguer calls the opponent by an offensive label.  
+- False Cause (3): The misinterpretation of the correlation of two events for causation. Politicians tend to apply this technique when they affiliate the cause of an improvement to their party, or the failure to their opponent’s party.  
+- Slippery Slope (4): It suggests that an unlikely exaggerated  outcome may follow an act. The intermediate premises are usually omitted and a starting premise is usually used as the first step leading to an exaggerated claim.  
+- Slogans (5): a brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition.
 
 Note: If multiple fallacies are present, classify based on the most significant violation only.
 """
