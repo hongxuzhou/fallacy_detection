@@ -18,8 +18,8 @@ p_d
 
 ## TASK OVERVIEW
 Analyze each statement to:
-1. Determine whether it violates any rules of critical discussion (fallacy detection)
-2. If fallacious, identify the MOST SIGNIFICANT rule violation and classify the PRIMARY fallacy type
+1. Determine which rule(s) of critical discussion is/are violated
+2. For each fallacious statement, identify the MOST SIGNIFICANT rule violation and classify the PRIMARY fallacy type
 3. Provide a brief justification for your analysis
 
 ## THEORETICAL FOUNDATION: PRAGMA-DIALECTICAL RULES
@@ -54,17 +54,13 @@ In pragma-dialectics, fallacies are violations of rules for critical discussion.
 - Violations: refusing to accept the outcome, claiming absolute victory from limited success
 
 10. LANGUAGE USE RULE: Formulations must be clear and unambiguous
-    - Violations: vagueness, ambiguity, equivocation
+- Violations: vagueness, ambiguity, equivocation
 
 ## ANALYSIS PROCEDURE
 For each statement:
 
-STEP 1: DETECTION
-- Carefully read the statement and determine if it violates any of the ten rules
-- If one or more rules are violated, proceed to classification
-
-STEP 2: CLASSIFICATION
-- Identify the PRIMARY rule violation (the most significant one)
+STEP 1: CLASSIFICATION
+- Carefully read the statement and identify the PRIMARY rule violation (the most significant one)
 - While multiple violations may exist, focus on the most prominent fallacy
 - Secondary violations can be mentioned in your analysis but not in the classification
 
@@ -80,12 +76,12 @@ Analysis: [Your pragma-dialectical analysis focusing on the primary violation, t
 Classification: [NUMBER]
 
 Where [NUMBER] is a SINGLE DIGIT representing the PRIMARY fallacy:
-0 - Appeal to Emotion (violations of relevance rule with emotional appeals, ad baculum, ad misericordiam)
-1 - Appeal to Authority (violations of relevance rule with inappropriate appeals to authority)
-2 - Ad Hominem (violations of freedom rule through personal attacks)
-3 - False Cause (violations of argument scheme rule with causal fallacies)
-4 - Slippery Slope (violations of argument scheme rule with hasty slippery slope reasoning)
-5 - Slogans (a brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition)
+0 - Appeal to Emotion: The unessential loading of the argument with emotional language to exploit the audience emotional instinct. Sub-categories: appeal to pity, appeal to fear, loaded language (i.e., increasing the intensity of a phrase by using emotionally loaded descriptive phrases - either positive or negative) and flag waving, which appeals to the emotion of a group of people by referring to their identity. 
+1 - Appeal to Authority: When the arguer mentions the name of an authority or a group of people who agreed with her claim either without providing any relevant evidence, or by mentioning popular non-experts, or the acceptance of the claim by the majority. 
+2 - Ad Hominem: When the argument becomes an excessive attack on an arguer’s position. It covers three sub-types: general ad hominem (an attack on the character of the opponent),  tu quoque ad hominem (the “You did it first” attack) and bias ad hominem (an attack in which the arguer implies that the opponent is personally benefiting from his stance in the argument); and Name-calling, Labeling, i.e., when the arguer calls the opponent by an offensive label.  
+3 - False Cause: The misinterpretation of the correlation of two events for causation. Politicians tend to apply this technique when they affiliate the cause of an improvement to their party, or the failure to their opponent’s party.  
+4 - Slippery Slope: It suggests that an unlikely exaggerated  outcome may follow an act. The intermediate premises are usually omitted and a starting premise is usually used as the first step leading to an exaggerated claim.  
+5 - Slogans: a brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition.
 
 ## IMPORTANT CONSIDERATIONS
 - Focus on the statement itself, not surrounding context
