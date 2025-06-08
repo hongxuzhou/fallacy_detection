@@ -1,0 +1,35 @@
+Okay, let's tackle this analysis step by step. The statement given is "Our character is on the ballot." I need to apply the Pragma-Dialectical (PD) rules to identify the primary fallacy.
+
+First, I'll read the statement carefully. The phrase "Our character is on the ballot" seems to be emphasizing the moral character of the candidates as a key factor in the election. But how does this relate to the PD rules?
+
+Looking at the PD rules, I should check which ones might be violated. Let's go through them one by one. 
+
+Rule 1: Freedom Rule. This is about preventing others from advancing or questioning standpoints. The statement doesn't seem to attack the opponent directly or use threats, so maybe not this one. 
+
+Rule 2: Burden of Proof. The speaker is asserting a standpoint but not providing evidence. However, the statement itself isn't a claim that needs proof, but rather a statement about what's being judged. Maybe not directly violating this rule.
+
+Rule 3: Standpoint Rule. This requires attacks to address the actual standpoint. The statement isn't attacking an opponent's position but rather stating a premise about the election. So maybe not this.
+
+Rule 4: Relevance Rule. The argument must be relevant. The statement is about character being on the ballot, which is relevant to the election, so maybe not a violation here.
+
+Rule 5: Unexpressed Premise Rule. This is about attributing implicit premises. The statement might be implying that character is the main criterion, but I don't see a false attribution here.
+
+Rule 6: Starting Point Rule. This involves presenting premises as accepted. The statement isn't necessarily assuming a starting point but stating a fact. Not sure yet.
+
+Rule 7: Validity Rule. The reasoning here isn't formal, so maybe not a validity issue.
+
+Rule 8: Argument Scheme Rule. This includes things like slippery slope or false cause. The statement isn't making a causal link or a chain of events, so maybe not this.
+
+Rule 9: Concluding Rule. This is about withdrawing standpoints. The statement isn't about concluding an argument, so probably not.
+
+Rule 10: Language Use Rule. The phrase "Our character" might be vague or ambiguous. But "character" is a general term. However, maybe it's using loaded language to evoke emotions, which could fall under Appeal to Emotion.
+
+Wait, the Output Categories include Appeal to Emotion (0), which includes loaded language. The statement uses "character" which could be seen as emotionally charged. By emphasizing character, the speaker might be trying to appeal to the audience's emotions, making them focus on personal traits rather than policy. This could be an appeal to emotion, specifically using loaded language to influence the audience's perception.
+
+Alternatively, could it be a Straw Man? But the statement isn't distorting the opponent's argument. It's more about framing the election as a character contest. Maybe it's not a Straw Man. 
+
+Another angle: the statement might be using the term "character" to imply that the opponent lacks it, which could be an Ad Hominem. But the statement doesn't directly attack the opponent's character, just states that character is on the ballot. However, if the context is implying that the opponent's character is bad, that could be Ad Hominem. But the statement as given is neutral. 
+
+Wait, the statement is from a debate, so the speaker might be positioning their own character as a key factor, possibly implying that the opponent's character is not up to par. But without more context, it's hard to say. However, based on the statement alone, it's more about framing the election as a character issue, which could be an appeal to emotion by using emotionally charged language. 
+
+So, under the Output Categories, Appeal to Emotion (0) includes loaded language. The phrase "Our character" might be using loaded language to evoke emotional responses, making the audience focus on personal traits rather than policy arguments. Therefore, the primary fallacy would be Appeal to Emotion (0).

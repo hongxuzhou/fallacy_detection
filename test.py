@@ -1,11 +1,11 @@
 from fallacy_classification_pipeline import *
-import bitsandbytes as bnb
 
-DATASET_PATH = "content/mamkit_dataset.csv"
+DATASET_PATH = "dataset/test_set.csv"
 MODEL_NAME = "Qwen/Qwen3-8B"
 MODEL_RESULTS_SAVE_NAME = "qwen"
 
-PROMPT_TYPE = "original"
+PROMPT_TYPE = "p_d"
+
 BATCH_SIZE = 1
 
 CSV_OUTPUT_PATH = "outputs/predictions.csv"
@@ -26,14 +26,6 @@ def main():
     print(f"Loading tokenizer from {MODEL_NAME}...")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, cache_dir=model_cache_dir)
 
-    # bnb_config = BitsAndBytesConfig(
-    #     load_in_4bit=True,
-    #     bnb_4bit_use_double_quant=True,
-    #     bnb_4bit_quant_type="nf4",
-    #     bnb_4bit_compute_dtype=torch.bfloat16
-    # )
-    
-    # print(f"Loading model from {MODEL_NAME} with 4-bit quantization...")
     print(f"Loading model from {MODEL_NAME}...")
 
     model = AutoModelForCausalLM.from_pretrained(
@@ -41,11 +33,8 @@ def main():
         cache_dir=model_cache_dir,
         device_map="auto",
         torch_dtype=torch.float16,
-        # quantization_config=bnb_config,
         low_cpu_mem_usage=True
     )
-
-    print(model.config.max_position_embeddings)
 
     model_load_time = time.time() - start_time
     print(f"Model loaded in {model_load_time:.2f} seconds")
@@ -70,7 +59,7 @@ def main():
         
         # Process sample
         try:
-            sample_result = process_sample(model, tokenizer, val_X, model.device, PROMPT_TYPE)
+            sample_result = process_sample(model, tokenizer, val_X, model.device, PROMPT_TYPE, True, True, 3)
             decoded_result = tokenizer.decode(sample_result[0], skip_special_tokens=True)
 
             print(decoded_result)

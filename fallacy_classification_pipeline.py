@@ -20,7 +20,6 @@ import nltk
 nltk.download('punkt_tab')
 
 
-# Define fallacy type labels for reference and plotting (only classification, so no Sound Arguments)
 FALLACY_LABELS = [
     "Appeal to Emotion",
     "Appeal to Authority",
@@ -28,7 +27,6 @@ FALLACY_LABELS = [
     "False Cause",
     "Slippery Slope",
     "Slogans",
-    # "Sound Argument"
 ]
 CACHE_DIR = "cache/"
 
@@ -102,102 +100,96 @@ def create_prompt(prompt_type="original"):
     """
     if prompt_type == "original": 
 
-        prompt = """You are an expert in logic and critical thinking. Your task is to analyze statements to determine if they contain logical fallacies.
+        prompt = """You are an expert in logic and critical thinking. Your task is to analyze fallacious statements to classify their type of fallacy.
 
 For the following statement, determine:
 1. The type of fallacy from the following categories:
-- Appeal to Emotion (0): Using emotion instead of logic
-- Appeal to Authority (1): Using authority figures to justify claims
-- Ad Hominem (2): Attacking the person instead of their argument
-- False Cause (3): Assuming correlation implies causation
-- Slippery Slope (4): Claiming one event leads to extreme consequences
-- Slogans (5): Using catchy phrases instead of substantive argument
+- Appeal to Emotion (0): The unessential loading of the argument with emotional language to exploit the audience emotional instinct. Sub-categories: appeal to pity, appeal to fear, loaded language (i.e., increasing the intensity of a phrase by using emotionally loaded descriptive phrases - either positive or negative) and flag waving, which appeals to the emotion of a group of people by referring to their identity.
+- Appeal to Authority (1): When the arguer mentions the name of an authority or a group of people who agreed with her claim either without providing any relevant evidence, or by mentioning popular non-experts, or the acceptance of the claim by the majority.
+- Ad Hominem (2): When the argument becomes an excessive attack on an arguer's position. It covers three sub-types: general ad hominem (an attack on the character of the opponent), tu quoque ad hominem (the “You did it first” attack) and bias ad hominem (an attack in which the arguer implies that the opponent is personally benefiting from his stance in the argument); and Name-calling, Labeling, i.e., when the arguer calls the opponent by an offensive label.
+- False Cause (3): The misinterpretation of the correlation of two events for causation. Politicians tend to apply this technique when they affiliate the cause of an improvement to their party, or the failure to their opponent's party.
+- Slippery Slope (4): It suggests that an unlikely exaggerated  outcome may follow an act. The intermediate premises are usually omitted and a starting premise is usually used as the first step leading to an exaggerated claim.
+- Slogans (5): A brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition.
 
 All statements are taken from United States presidential debates between 1960 and 2020.
 """
         
-    elif prompt_type == "p_d":
-        prompt = """You are an expert in argumentation analysis using the pragma-dialectical framework. Your task is to analyze statements and identify the PRIMARY fallacy that hinders the resolution of disputes in critical discussion.
+    elif prompt_type == "p_d": 
+        
+        prompt = """You are an expert in pragma-dialectical argumentation analysis. Your task is to analyze statements, identify the PRIMARY fallacy from a given list hindering critical discussion, and explain via Chain-of-Thought (CoT).
 
-## TASK OVERVIEW
-Analyze each statement to:
-1. Determine whether it violates any rules of critical discussion (fallacy detection)
-2. If fallacious, identify the MOST SIGNIFICANT rule violation and classify the PRIMARY fallacy type
-3. Provide a brief justification for your analysis
+## TASK:
+1. Analyze the statement against Pragma-Dialectical (PD) rules.
+2. Identify the primary PD rule violation & specific PD fallacy.
+3. Classify this into one of the 6 Output Categories.
+4. Provide structured CoT justification based on Detection, Classification, and Justification.
 
-## THEORETICAL FOUNDATION: PRAGMA-DIALECTICAL RULES
+## PRAGMA-DIALECTICAL RULES (Violations = Fallacies):
 
 In pragma-dialectics, fallacies are violations of rules for critical discussion. Analyze each statement against these ten rules:
 
 1. FREEDOM RULE: Parties must not prevent each other from advancing or questioning standpoints
-- Violations: ad hominem attacks, threats (ad baculum), appeals to pity (ad misericordiam), declaring topics taboo
+- Violations: aiming to discredit/silence: Ad Hominem (2) (direct attack, or undermining competence/consistency/right to speak), threats (ad baculum), appeals to pity (ad misericordiam), emotional pressure to silence (can be Appeal to Emotion (0)), declaring taboo.
 
 2. BURDEN OF PROOF RULE: A party who advances a standpoint must defend it when asked
-- Violations: evading the burden of proof by presenting claims as self-evident, shifting the burden to the other party
+- Violations: evading the burden of proof by presenting claims as self-evident, shifting the burden to the other party.
 
 3. STANDPOINT RULE: Attacks must address the actual standpoint advanced by the other party
-- Violations: straw man arguments, distorting the opponent's position
+- Violations: straw man arguments, distorting the opponent's position.
 
 4. RELEVANCE RULE: Standpoints must be defended with relevant argumentation
-- Violations: irrelevant arguments (ignoratio elenchi), appealing to emotion (pathos) or authority without proper reasoning
+- Violations: irrelevant arguments (ignoratio elenchi), appealing to emotion (pathos) or authority without proper reasoning.
 
 5. UNEXPRESSED PREMISE RULE: Parties cannot falsely attribute implicit premises or deny responsibility for their own implicit premises
-- Violations: exaggerating unexpressed premises, denying implied commitments
+- Violations: exaggerating unexpressed premises, denying implied commitments.
 
 6. STARTING POINT RULE: Parties cannot falsely present premises as accepted starting points or deny established starting points
-- Violations: begging the question (petitio principii), denying agreed premises
+- Violations: begging the question (petitio principii), denying agreed premises.
 
 7. VALIDITY RULE: Reasoning that is presented as formally conclusive must be logically valid
-- Violations: formal logical fallacies, invalid deductive reasoning
+- Violations: formal logical fallacies, invalid deductive reasoning.
 
 8. ARGUMENT SCHEME RULE: Standpoints must be defended using appropriate argument schemes applied correctly
-- Violations: hasty generalization, false analogy, false causality, slippery slope
+- Violations: Arguing that one action will lead to an extreme consequence through an implied or unstated chain of events. The intermediate steps are typically omitted (Slippery Slope (4)), drawing broad conclusions from few examples (hasty generalization), misinterpreting correlation as causation (false analogy), misinterpreting correlation as causation (False Cause (3)).
 
 9. CONCLUDING RULE: Failed defenses require withdrawing the standpoint; successful defenses require withdrawing doubts
-- Violations: refusing to accept the outcome, claiming absolute victory from limited success
+- Violations: refusing to accept the outcome, claiming absolute victory from limited success.
 
 10. LANGUAGE USE RULE: Formulations must be clear and unambiguous
-    - Violations: vagueness, ambiguity, equivocation
+- Violations: vagueness, ambiguity, equivocation.
 
-## ANALYSIS PROCEDURE
-For each statement:
+## OUTPUT FALLACY CATEGORIES (Primary Classification):
+- Appeal to Emotion (0): The unessential loading of the argument with emotional language to exploit the audience emotional instinct. Sub-categories: appeal to pity, appeal to fear, loaded language (i.e., increasing the intensity of a phrase by using emotionally loaded descriptive phrases - either positive or negative) and flag waving, which appeals to the emotion of a group of people by referring to their identity.
+- Appeal to Authority (1): When the arguer mentions the name of an authority or a group of people who agreed with her claim either without providing any relevant evidence, or by mentioning popular non-experts, or the acceptance of the claim by the majority.
+- Ad Hominem (2): When the argument becomes an excessive attack on an arguer's position. It covers three sub-types: general ad hominem (an attack on the character of the opponent), tu quoque ad hominem (the “You did it first” attack) and bias ad hominem (an attack in which the arguer implies that the opponent is personally benefiting from his stance in the argument); and Name-calling, Labeling, i.e., when the arguer calls the opponent by an offensive label.
+- False Cause (3): The misinterpretation of the correlation of two events for causation. Politicians tend to apply this technique when they affiliate the cause of an improvement to their party, or the failure to their opponent's party.
+- Slippery Slope (4): It suggests that an unlikely exaggerated  outcome may follow an act. The intermediate premises are usually omitted and a starting premise is usually used as the first step leading to an exaggerated claim.
+- Slogans (5): A brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition.
+
+## CoT ANALYSIS PROCEDURE (Follow this 3-Step Structure):
 
 STEP 1: DETECTION
-- Carefully read the statement and determine if it violates any of the ten rules
-- If no rules are violated, label it as "SOUND ARGUMENT"
-- If one or more rules are violated, proceed to classification
+- Carefully read the statement. 
+- What aspect of the statement seems problematic for critical discussion?
+- Which of the 10 Pragma-Dialectical (PD) rules are violated? Identify the single *most significant* PD rule violated.
 
 STEP 2: CLASSIFICATION
-- Identify the PRIMARY rule violation (the most significant one)
-- While multiple violations may exist, focus on the most prominent fallacy
-- Secondary violations can be mentioned in your analysis but not in the classification
+- Briefly restate the primary PD rule violation from Step 1 that is the basis for classification.
+- Based on this primary PD violation, select the single most appropriate fallacy from the "OUTPUT FALLACY CATEGORIES" list (e.g., Ad Hominem (2)). Consider the violation examples under the PD rules for guidance.
 
 STEP 3: JUSTIFICATION
-- Provide a brief explanation of why the statement violates the primary rule
-- You may note other violations in your analysis, but keep the focus on the main fallacy
+- Provide a brief explanation. Why does the statement violate the identified primary PD rule? 
+- How does this PD rule violation justify the chosen Output Category from Step 2? 
+- If multiple PD rules were violated, explain why the chosen one is primary for classification into your 6 categories.
 
-## OUTPUT FORMAT
-For each statement, provide your analysis in this format:
+## KEY GUIDELINES:
+-  Focus on the statement in isolation.
+-  The *primary* classification must be one of the 6 Output Categories.
+-  If multiple PD rules are violated, the "Classification" (Step 2) should focus on the violation that best maps to one of the 6 Output Categories as the *primary fallacy*.
+-  Avoid over-interpretation; identify clear violations.
 
-Statement: [Original statement]
-Analysis: [Your pragma-dialectical analysis focusing on the primary violation, though you may briefly note secondary issues]
-Classification: [NUMBER]
-
-Where [NUMBER] is a SINGLE DIGIT representing the PRIMARY fallacy:
-0 - Appeal to Emotion (violations of relevance rule with emotional appeals, ad baculum, ad misericordiam)
-1 - Appeal to Authority (violations of relevance rule with inappropriate appeals to authority)
-2 - Ad Hominem (violations of freedom rule through personal attacks)
-3 - False Cause (violations of argument scheme rule with causal fallacies)
-4 - Slippery Slope (violations of argument scheme rule with hasty slippery slope reasoning)
-5 - Slogans (violations of language use rule through empty phrases, equivocation)
-6 - Sound Argument (no violations of rules)
-
-## IMPORTANT CONSIDERATIONS
-- Focus on the statement itself, not surrounding context
-- When multiple fallacies exist, classify based on the MOST SIGNIFICANT violation
-- Be careful not to over-interpret - identify only clear violations
-- For borderline cases, explain your reasoning for choosing the primary fallacy
-- Maintain consistency in your analysis across different statements
+## STATEMENT (AND CONTEXT):
+All statements are taken from United States presidential and vice-presidential debates between 1960 and 2020.
 """
 
     elif prompt_type == "pta":
@@ -262,34 +254,16 @@ STEP 5: FALLACY CLASSIFICATION
 - While multiple violations may be present, focus on the most prominent one
 - Secondary violations can be noted in analysis but not in final classification
 
-## COMMON FALLACIOUS PATTERNS
-- False Causality: Claiming Y causes X without sufficient evidence (in alpha FF arguments)
-- False Analogy: Claiming a and b are similar when they're fundamentally different (in beta arguments)
-- False Equivalence: Treating different subjects as identical (in beta arguments)
-- Equivocation: Using the same term with different meanings (misidentified form)
-- Ad Hominem: Using personal attributes to attack a claim (invalid delta form)
-- Circular Reasoning: Using the conclusion as a premise (disguised as alpha form)
-- False Dilemma: Presenting only two options when more exist (invalid lever in gamma form)
-- Appeal to Emotion: Using emotional response instead of valid lever
-- Appeal to Authority: Using inappropriate authority (invalid lever in delta form)
+## OUTPUT FALLACY CATEGORIES (Primary Classification)
+- Appeal to Emotion (0): The unessential loading of the argument with emotional language to exploit the audience emotional instinct. Sub-categories: appeal to pity, appeal to fear, loaded language (i.e., increasing the intensity of a phrase by using emotionally loaded descriptive phrases - either positive or negative) and flag waving, which appeals to the emotion of a group of people by referring to their identity.
+- Appeal to Authority (1): When the arguer mentions the name of an authority or a group of people who agreed with her claim either without providing any relevant evidence, or by mentioning popular non-experts, or the acceptance of the claim by the majority.
+- Ad Hominem (2): When the argument becomes an excessive attack on an arguer's position. It covers three sub-types: general ad hominem (an attack on the character of the opponent), tu quoque ad hominem (the “You did it first” attack) and bias ad hominem (an attack in which the arguer implies that the opponent is personally benefiting from his stance in the argument); and Name-calling, Labeling, i.e., when the arguer calls the opponent by an offensive label.
+- False Cause (3): The misinterpretation of the correlation of two events for causation. Politicians tend to apply this technique when they affiliate the cause of an improvement to their party, or the failure to their opponent's party.
+- Slippery Slope (4): It suggests that an unlikely exaggerated  outcome may follow an act. The intermediate premises are usually omitted and a starting premise is usually used as the first step leading to an exaggerated claim.
+- Slogans (5): A brief and striking phrase used to provoke excitement of the audience, often accompanied by argument by repetition.
 
-## OUTPUT FORMAT
-For each statement, provide your analysis in this format:
-
-Statement: [Original statement]
-[Your PTA structure analysis, focusing on the primary violation]
-Classification: [NUMBER]
-
-Where [NUMBER] is a SINGLE DIGIT representing the PRIMARY fallacy:
-0 - Appeal to Emotion (invalid emotional lever)
-1 - Appeal to Authority (invalid authority lever)
-2 - Ad Hominem (attacks on character rather than arguments)
-3 - False Cause (invalid causal lever)
-4 - Slippery Slope (invalid chain of consequences)
-5 - Slogans (statements without proper argumentative structure)
-6 - Valid Argument (valid argument pattern)
-
-Note: If multiple fallacies are present, classify based on the most significant violation only.
+## STATEMENT (AND CONTEXT)
+All statements are taken from United States presidential and vice-presidential debates between 1960 and 2020.
 """
 
     else:
@@ -313,14 +287,58 @@ def format_date_string(date_str):
     return f"{year:04d}-{month_num:02d}-{day}"
 
 
-def add_context(prompt, sample, add_date=True, add_context_flag=True, context_window=3):
+def classify_level(value):
+    """
+    Classify a value between -1 and 1 into low, moderate, or high.
+    """
+    
+    if value < -0.33:
+        return "low"
+    elif value > 0.33:
+        return "high"
+    else:
+        return "moderate"
+
+
+def interpret_emotion(arousal, dominance, valence):
+    tone = []
+
+    if arousal > 0.33:
+        tone.append("energetic")
+    elif arousal < -0.33:
+        tone.append("lethargic")
+    else:
+        tone.append("calm")
+
+    if dominance > 0.33:
+        tone.append("assertive")
+    elif dominance < -0.33:
+        tone.append("submissive")
+    else:
+        tone.append("neutral in control")
+
+    if valence > 0.33:
+        tone.append("positive or pleasant")
+    elif valence < -0.33:
+        tone.append("negative or unpleasant")
+    else:
+        tone.append("emotionally neutral")
+
+    return tone
+
+
+def add_context(prompt, sample, add_audio_context_flag=True, add_context_flag=True, context_window=3):
     """Parse statement and add context"""
 
-    output_format = """Respond in this exact JSON format:
+    output_format = """
+## OUTPUT FORMAT:
+
+For the statement, provide your analysis in this format:
 {
     "analysis": "Your reasoning here.",
     "classification": NUMBER
-}"""    
+}
+"""    
     
     statement = sample["snippet"]
     context = sample["dialogue"]
@@ -328,47 +346,75 @@ def add_context(prompt, sample, add_date=True, add_context_flag=True, context_wi
 
     sentences = sent_tokenize(context)
 
-    # Find the index of the sentence that contains the statement
-    match_index = None
-    for i, sent in enumerate(sentences):
-        if statement in sent:
-            match_index = i
+    # Find the start and end indexes of the sentences that contain the statement
+    best_span = None
+    for i in range(len(sentences)):
+        for j in range(i, len(sentences)):
+            joined = " ".join(sentences[i:j+1]).strip()
+            
+            # Use exact match to avoid extra sentences leaking in
+            if joined == statement.strip():
+                best_span = (i, j)
+                break
+
+        if best_span:
             break
 
-    if match_index is None:
-        print("Sentence not found in context!")
-        prompt += f"\nSTATEMENT: \"{statement.strip()}\"\n\n"
+    if best_span is None:
+        print("Snippet not found in context!")
+        prompt += f"\nSTATEMENT: \"{statement}\"\n\n"
         prompt += f"\n{output_format}"
         return prompt
-        
+    
+    ## Audio Modality
+    arousal = sample["arousal"]
+    dominance = sample["dominance"]
+    valence = sample["valence"]
+
+    arousal_level = classify_level(arousal)
+    dominance_level = classify_level(dominance)
+    valence_level = classify_level(valence)
+
+    tone_descriptions = interpret_emotion(arousal, dominance, valence)
+
+    audio_prompt = (
+        f"The speaker speaks with an emotional tone characterized by "
+        f"{arousal_level} arousal ({arousal:.2f}), "
+        f"{dominance_level} dominance ({dominance:.2f}), and "
+        f"{valence_level} valence ({valence:.2f}). "
+        f"These values, ranging from -1 to 1, suggest the speech is "
+        f"{', '.join(tone_descriptions[:-1])}, and {tone_descriptions[-1]}."
+    )
+
+    start_index, end_index = best_span
     # Get up to *context_window* sentences before
-    before = " ".join(sentences[max(0, match_index - context_window):match_index]).strip()
+    before = " ".join(sentences[max(0, start_index - context_window):start_index]).strip()
     # Get up to *context_window* sentences after
-    after = " ".join(sentences[match_index + 1:match_index + 1 + context_window]).strip()
+    after = " ".join(sentences[end_index + 1:min(len(sentences), end_index + 1 + context_window)]).strip()
 
     context_combined = f"{before} [STATEMENT] {after}".strip()
-
     formatted_date = format_date_string(context_date)
 
     # Final prompt
     prompt += f"\nSTATEMENT: \"{statement.strip()}\"\n"
-    if add_date:
-        prompt += f"\nDATE: {formatted_date}\n"
     if add_context_flag and context_window > 0:
+        prompt += f"\nDATE: {formatted_date}\n"
         prompt += f"\nThe context below includes sentences before and after the statement, with [STATEMENT] marking where it originally appeared.\n"
         prompt += f"CONTEXT: {context_combined}\n"
+    if add_audio_context_flag:
+        prompt += f"\n{audio_prompt}"
     prompt += f"\n{output_format}"
 
     return prompt
 
 
-def process_sample(model, tokenizer, sample, device, prompt_type="original"):
+def process_sample(model, tokenizer, sample, device, prompt_type="original", add_audio_context_flag=True, add_context_flag=True, context_window=3):
     """Process a batch of examples and return both parsed results and raw outputs."""
 
     # Generate prompt
     prompt = create_prompt(prompt_type)
     # Add context to prompt
-    prompt_with_context_and_statement = add_context(prompt, sample, False, False, 3)
+    prompt_with_context_and_statement = add_context(prompt, sample, add_audio_context_flag, add_context_flag, context_window)
     
     print(prompt_with_context_and_statement)
     
@@ -389,7 +435,7 @@ def process_sample(model, tokenizer, sample, device, prompt_type="original"):
     inputs = tokenizer(input_text, return_tensors="pt").to(device)
 
     input_num_tokens = inputs['input_ids'].shape[1]
-    max_new_tokens = input_num_tokens + 4096 
+    max_new_tokens = input_num_tokens + 5120 
 
     print(f"max_new_tokens: {max_new_tokens}")
     
@@ -439,7 +485,7 @@ def extract_output_and_store(filename, text_output):
     return parsed_json.get("classification")
 
 
-def evaluate_and_visualize(output_file):
+def evaluate_and_visualize(output_file, inference_processing_time):
     """Evaluate model performance and visualize results."""
     df = pd.read_csv("outputs/predictions.csv")
 
@@ -447,6 +493,10 @@ def evaluate_and_visualize(output_file):
     true_labels = df["true_value"].astype(int).tolist()
 
     report = classification_report(true_labels, predicted_labels)
+    with open('outputs/classification_report.txt', 'w') as f:
+        f.write(f"Total inference time: {inference_processing_time:.2f} seconds")
+        f.write(report)
+
     print(report)
     
     # Create confusion matrix
@@ -496,15 +546,7 @@ def main():
     # Load model and tokenizer
     print(f"Loading tokenizer from {args.model_name}...")
     tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=model_cache_dir)
-
-    # bnb_config = BitsAndBytesConfig(
-    #     load_in_4bit=True,
-    #     bnb_4bit_use_double_quant=True,
-    #     bnb_4bit_quant_type="nf4",
-    #     bnb_4bit_compute_dtype=torch.bfloat16
-    # )
     
-    # print(f"Loading model from {MODEL_NAME} with 4-bit quantization...")
     print(f"Loading model from {args.model_name}...")
 
     model = AutoModelForCausalLM.from_pretrained(
@@ -512,7 +554,6 @@ def main():
         cache_dir=model_cache_dir,
         device_map="auto",
         torch_dtype=torch.float16,
-        # quantization_config=bnb_config,
         low_cpu_mem_usage=True
     )
 
@@ -539,7 +580,7 @@ def main():
         
         # Process sample
         try:
-            sample_result = process_sample(model, tokenizer, val_X, model.device, args.prompt_type)
+            sample_result = process_sample(model, tokenizer, val_X, model.device, args.prompt_type, False, False, 3)
             decoded_result = tokenizer.decode(sample_result[0], skip_special_tokens=True)
 
             print(decoded_result)
@@ -563,7 +604,7 @@ def main():
     print(f"All samples processed in {inference_processing_time:.2f} seconds")
 
     # Evaluate model performance
-    evaluate_and_visualize("outputs/confusion_matrix.png")
+    evaluate_and_visualize("outputs/confusion_matrix.png", inference_processing_time)
 
     # Print total computation time
     total_time = time.time() - start_time

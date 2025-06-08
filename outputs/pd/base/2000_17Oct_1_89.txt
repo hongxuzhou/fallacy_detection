@@ -1,0 +1,31 @@
+Okay, let's tackle this analysis step by step. The statement is: "Now, because the governor has all this money for a tax cut mostly to the wealthy, there is no money left over, so schools get testing and lawsuit reform and not much else."
+
+First, I need to understand what the statement is saying. The speaker is blaming the governor's tax cuts, which are mostly benefiting the wealthy, for the lack of funds left for schools. The implication is that because the governor took money from the wealthy, there's not enough left for other priorities like schools. 
+
+Now, applying the Pragma-Dialectical rules. Let's check each rule to see which one is violated. 
+
+Starting with the Freedom Rule: The speaker isn't directly attacking the governor's character or silencing them. They're making a claim about the tax cuts' effects. So maybe not this rule.
+
+Burden of Proof Rule: The speaker is presenting a claim (that tax cuts to the wealthy caused lack of funds) without providing evidence. But the statement doesn't explicitly say "I know this is true," so maybe not a clear violation here. However, if they're asserting the claim without proof, that could be an issue. But the statement itself is more about the reasoning than the burden of proof.
+
+Standpoint Rule: The speaker is addressing the governor's tax policy. They're not distorting the opponent's position. The governor's stance is that tax cuts are for the wealthy, and the speaker is responding to that. So maybe not a straw man here.
+
+Relevance Rule: The argument is about the effects of tax cuts on school funding. The reasoning is that the tax cuts took money away, leading to less funds. But is this relevant? It seems relevant, but maybe there's a logical fallacy here.
+
+Unexpressed Premise Rule: The speaker assumes that the tax cuts are the reason for the lack of funds. But maybe there are other factors. However, the statement doesn't attribute implicit premises, so perhaps not this rule.
+
+Starting Point Rule: The speaker is presenting the tax cuts as a starting point. If they're assuming that the tax cuts are the cause without evidence, that could be begging the question. But I'm not sure yet.
+
+Validity Rule: The reasoning here is that tax cuts to the wealthy lead to less money for schools. But is this logically valid? It's a causal claim. If the tax cuts are the only reason for the lack of funds, that's a causal fallacy. However, the statement might be making a false cause fallacy by assuming that the tax cuts are the direct cause without considering other factors.
+
+Argument Scheme Rule: The argument here is that the tax cuts caused the lack of funds. The intermediate steps are not specified. For example, maybe the tax cuts were offset by other revenues or spending cuts. The statement assumes a direct cause without considering other factors, which might be a slippery slope or false cause. Wait, the slippery slope is about a chain of events leading to an extreme outcome. Here, it's more about a direct cause-effect. So maybe false cause (3) is the issue here.
+
+Language Use Rule: The statement uses "mostly to the wealthy" which could be loaded language, but the main issue seems to be the causal claim.
+
+So, the primary PD rule violation here is the Argument Scheme Rule, specifically the False Cause (3) fallacy. The speaker is misinterpreting a correlation (tax cuts to the wealthy) as a direct cause for the lack of funds for schools, without considering other factors. This is a False Cause fallacy, which is category 3.
+
+Wait, but could it be a Slippery Slope? The slippery slope involves a chain of events leading to an extreme outcome. Here, the argument is more about a direct cause rather than a chain. So False Cause seems more accurate. 
+
+Alternatively, maybe the speaker is making an ad hominem by attacking the governor's policy (tax cuts to the wealthy) as being biased, but that's not exactly an ad hominem. The ad hominem would be attacking the person's character, not their policy. So that's not applicable here.
+
+So the main issue is the causal link being assumed without sufficient evidence, which is False Cause (3).

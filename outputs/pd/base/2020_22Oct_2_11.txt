@@ -1,0 +1,15 @@
+Okay, let's tackle this analysis. The statement is: "Now, you're saying you're gonna get it done because you're all talk and no action, Joe." 
+
+First, I need to apply the Pragma-Dialectical rules. Let me start by understanding what the statement is doing. The speaker is addressing Joe, calling him "all talk and no action." This seems like a personal attack rather than addressing the actual arguments or policies Joe might be proposing. 
+
+Looking at the PD rules, the Freedom Rule says parties must not prevent each other from advancing or questioning standpoints. Violations here include ad hominem attacks. The statement is attacking Joe's character or competence rather than his arguments. That fits the Ad Hominem (2) category. 
+
+Next, the Burden of Proof Rule is about defending one's standpoint when asked. But this statement isn't about shifting the burden; it's more about attacking the person. The Standpoint Rule requires attacks to address the actual standpoint. Here, the attack is on Joe's character, not his arguments, which is a straw man or ad hominem. 
+
+Relevance Rule says arguments must be relevant. The statement is irrelevant because it's not addressing the actual points made. However, the primary violation here seems to be the ad hominem. 
+
+Unexpressed Premise Rule might be involved if they're attributing premises, but I don't see that. Starting Point Rule isn't clearly violated. Validity and Argument Scheme Rules don't seem to apply here. 
+
+The main issue is the personal attack. The Output Categories include Ad Hominem (2), which covers attacks on the opponent's character. The statement uses name-calling ("all talk and no action") which is a form of ad hominem. 
+
+So, the primary PD rule violation is the Freedom Rule through an ad hominem attack. The classification is Ad Hominem (2). The justification is that the statement attacks Joe's character instead of addressing his arguments, violating the Freedom Rule and fitting the Ad Hominem category.

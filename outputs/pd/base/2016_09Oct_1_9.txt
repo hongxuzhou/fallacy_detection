@@ -1,0 +1,13 @@
+Okay, let's tackle this analysis. The statement is: "Number two, Bernie Sanders said that Hillary Clinton has very bad judgment." 
+
+First, I need to apply the Pragma-Dialectical rules. Let me start by understanding the statement. It's a claim about Bernie Sanders criticizing Hillary Clinton's judgment. The key here is whether this is a fallacy.
+
+Looking at the PD rules, the main issue might be about attacking the person rather than their argument. The Freedom Rule says parties must not prevent each other from advancing or questioning standpoints. Violations include ad hominem. The statement here is not directly attacking Sanders' argument but instead criticizing Clinton's judgment. Wait, but the statement is from Sanders, so maybe it's a case of ad hominem? Or is it a straw man?
+
+Wait, the Standpoint Rule says attacks must address the actual standpoint. If Sanders is attacking Clinton's judgment, maybe he's distorting her position. But the statement itself is a direct attack on her judgment, not necessarily her argument. Alternatively, if the original argument was about her policies, and Sanders is attacking her character instead, that's ad hominem. But the statement here is just a quote, so maybe it's a case of ad hominem (2) because it's attacking her character (judgment) rather than her argument. 
+
+Looking at the Output Categories, Ad Hominem (2) includes attacks on the opponent's character. So the primary fallacy here would be Ad Hominem. The statement doesn't provide evidence for her judgment; it's a direct attack. 
+
+Check if other rules apply. The Burden of Proof Rule isn't violated here. The Relevance Rule might be if the argument is irrelevant, but the statement is a direct attack. The main violation is attacking the person's character (judgment) rather than the argument. So the primary PD rule violation is the Freedom Rule's ad hominem. 
+
+Classification would be Ad Hominem (2). The justification is that the statement attacks Clinton's character (judgment) instead of addressing her arguments, which violates the Freedom Rule and falls under Ad Hominem.

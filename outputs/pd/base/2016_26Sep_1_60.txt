@@ -1,0 +1,25 @@
+Okay, let's tackle this analysis. The statement is: "These are people that are bad people that shouldn't be—when you have 3,000 shootings in Chicago from January 1st, when you have 4,000 people killed in Chicago by guns, from the beginning of the presidency of Barack Obama, his hometown, you have to have stop-and-frisk."
+
+First, I need to apply the Pragma-Dialectical rules. Let me start by breaking down the statement. The speaker is talking about high numbers of shootings and killings in Chicago during Obama's presidency and then says that stop-and-frisk is necessary. 
+
+Looking at the PD rules, I need to check which one is violated. The statement seems to be making a claim about the necessity of stop-and-frisk based on statistics. But wait, the numbers given might be problematic. Let me check the facts. Wait, the user says the statements are from debates between 1960-2020, so maybe the numbers are real. But the key here is the argument structure.
+
+The user mentions that the primary fallacy should be from the Output Categories. Let me think about the possible fallacies. The statement uses emotional language like "bad people" and "shouldn't be," which could be an appeal to emotion. Also, the numbers are presented to support the need for stop-and-frisk. But maybe there's a relevance issue. Wait, the numbers might be irrelevant if the argument is not properly connecting them to the necessity of stop-and-frisk. For example, if the argument is that because there are many shootings, stop-and-frisk is needed, but maybe that's a false cause. Or maybe it's an appeal to authority if they're citing experts, but the statement doesn't mention any. Alternatively, the emotional language could be an appeal to emotion. 
+
+Looking at the PD rules, the Relevance Rule (Rule 4) says that standpoints must be defended with relevant argumentation. If the argument is using emotional language to sway the audience rather than providing relevant evidence, that's a violation. The statement uses "bad people" and emotional terms, which might be an appeal to emotion (category 0). 
+
+Alternatively, maybe the numbers are presented as a reason, but if the argument is not logically connecting the numbers to the conclusion, that could be a false cause (category 3). But the main issue here is the emotional language. 
+
+Wait, the statement starts with "These are people that are bad people that shouldn't be—" which is a loaded term. The rest of the statement presents statistics to support the need for stop-and-frisk. The emotional language here might be an appeal to emotion. Also, the use of "bad people" could be name-calling, which is Ad Hominem (category 2). But the Ad Hominem is attacking the person's character, but in this case, the speaker is talking about the people in Chicago, not the opponent. Wait, maybe it's an ad hominem against the people in Chicago, but the opponent might be the person who opposes stop-and-frisk. Hmm. 
+
+Alternatively, the primary issue is the emotional appeal. The statement uses loaded language ("bad people") to evoke an emotional response, which is Appeal to Emotion (0). The numbers are presented as supporting evidence, but the emotional language is the key here. 
+
+Another angle: the speaker is using the statistics to argue that stop-and-frisk is necessary, but if the argument is not logically connecting the numbers to the policy, that's a false cause (category 3). But the main issue here seems to be the emotional appeal. 
+
+Looking at the Output Categories, Appeal to Emotion (0) includes loaded language. The statement uses "bad people" which is loaded, and the emotional terms. So the primary fallacy would be Appeal to Emotion (0). 
+
+But I need to check the PD rules. The Relevance Rule (Rule 4) violation would be if the argument is irrelevant. However, the statistics are relevant, but the emotional language might be an appeal to emotion. The Language Use Rule (Rule 10) would be violated if there's ambiguity, but the statement isn't vague. 
+
+Alternatively, the statement might be using the numbers as a way to argue that stop-and-frisk is necessary, but if the argument is not properly structured, maybe it's a false cause. But the main issue is the emotional language. 
+
+So, the primary fallacy here is Appeal to Emotion (0) because of the loaded language. Therefore, the classification is 0.
