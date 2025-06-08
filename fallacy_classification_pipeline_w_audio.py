@@ -348,8 +348,7 @@ def interpret_emotion(arousal, dominance, valence):
 
     return tone
 
-def add_context(prompt, sample, add_date=True, add_context_flag=True, add_basic_audio_util_prompt = True, 
-                add_theoritical_audio_util_prompt = True, context_window=3):
+def add_context(prompt, sample, add_date=True, add_context_flag=True, add_basic_audio_util_prompt = True, context_window=3):
     """Parse statement and add context"""
 
     output_format = """
@@ -436,7 +435,7 @@ def process_sample(model, tokenizer, sample, device, prompt_type="original"):
     # Generate prompt
     prompt = create_prompt(prompt_type)
     # Add context to prompt
-    prompt_with_context_and_statement = add_context(prompt, sample, False, False, True, False, 3)
+    prompt_with_context_and_statement = add_context(prompt, sample, False, False, True, 3)
     
     print(prompt_with_context_and_statement)
     
