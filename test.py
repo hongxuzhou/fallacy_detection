@@ -83,7 +83,7 @@ def main():
     print(f"All samples processed in {inference_processing_time:.2f} seconds")
 
     # Evaluate model performance
-    evaluate_and_visualize("outputs/confusion_matrix.png")
+    evaluate_and_visualize("outputs/confusion_matrix.png", inference_processing_time)
 
     # Print total computation time
     total_time = time.time() - start_time

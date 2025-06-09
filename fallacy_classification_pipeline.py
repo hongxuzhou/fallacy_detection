@@ -494,7 +494,7 @@ def evaluate_and_visualize(output_file, inference_processing_time):
 
     report = classification_report(true_labels, predicted_labels)
     with open('outputs/classification_report.txt', 'w') as f:
-        f.write(f"Total inference time: {inference_processing_time:.2f} seconds")
+        f.write(f"Total inference time: {inference_processing_time:.2f} seconds\n\n")
         f.write(report)
 
     print(report)
