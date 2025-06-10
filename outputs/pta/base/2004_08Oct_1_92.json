@@ -1,0 +1,4 @@
+{
+    "analysis": "The statement uses two examples (Afghanistan and Iraq) with free elections (F) to conclude that free societies (V) will make the world more peaceful. The form is BETA (comparing two subjects with same predicate), but the lever assumes a causal link between free elections (F) and peace (V) without proper justification. This violates the BETA constraint requiring similarity/analogy levers, instead making an unsupported causal claim.",
+    "classification": 3
+}

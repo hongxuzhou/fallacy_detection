@@ -1,0 +1,4 @@
+{
+    "analysis": "The statement presents a factual comparison (form: BETA) between two time periods (substance: Fact). The lever is the numerical comparison, which is a valid equality lever. However, the statement implicitly attributes the increase in unemployment to Ford's policies without establishing a causal link, violating the constraint for BETA forms requiring similarity/analogy/equality levers. This creates a False Cause (3) fallacy by assuming causation from mere correlation.",
+    "classification": 3
+}

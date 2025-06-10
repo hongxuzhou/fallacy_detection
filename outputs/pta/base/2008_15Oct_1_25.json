@@ -1,0 +1,4 @@
+{
+    "analysis": "The argument assumes a direct causal link between removing state restrictions on insurers and the outcome of insurers cherry-picking/excluding people. This violates the Gamma form's requirement for parallel relationships (e.g., 'a:b as X:Y') by presenting an unsupported causal chain without establishing proportional or analogous reasoning. The lever is a causal claim (False Cause) rather than a parallel relationship.",
+    "classification": 3
+}

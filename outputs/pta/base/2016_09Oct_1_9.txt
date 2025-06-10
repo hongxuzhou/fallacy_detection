@@ -1,0 +1,27 @@
+Okay, let's tackle this statement: "Number two, Bernie Sanders said that Hillary Clinton has very bad judgment." 
+
+First, I need to break it down according to the PTA framework. The user wants me to identify the form, substance, lever, and check for fallacies.
+
+Starting with the conclusion and premises. The statement seems to be reporting what Bernie Sanders said about Hillary Clinton. But is there an argument here? The statement itself is a quote or a report of a statement, not necessarily an argument. Wait, maybe the conclusion is that Hillary Clinton has bad judgment, and the premise is that Bernie Sanders said so. But the structure here is a bit unclear. 
+
+Looking at the form: The subject here is Hillary Clinton, and the predicate is "has very bad judgment." The form is comparing two different subjects? Wait, the statement is about Bernie Sanders saying something about Hillary. So maybe the form is beta? Because it's saying that because Bernie Sanders (a) said something (X), Hillary Clinton (b) has bad judgment (Y). But the lever here is the authority of Bernie Sanders. 
+
+Substance: The premise is a statement about a person's judgment, which is a value (V) because it's about a quality. The conclusion is also a value statement (V). So form is beta (a is X because b is X), but wait, the structure here is that the premise is a statement by someone (Bernie) about Hillary. So maybe the form is alpha? Wait, the form is about how subjects and predicates are configured. 
+
+Wait, the form is determined by comparing the subjects and predicates. The conclusion is "Hillary Clinton has very bad judgment" (subject: Hillary, predicate: bad judgment). The premise is "Bernie Sanders said that..." So the premise is a statement by Bernie, but the conclusion is about Hillary. So the form here is beta? Because the premise is about Bernie (a) saying something, and the conclusion is about Hillary (b) having bad judgment. But the lever is the authority of Bernie. 
+
+So form is beta (a is X because b is X). Wait, no. The conclusion is that Hillary has bad judgment. The premise is that Bernie said so. So the form is beta: "Hillary has bad judgment because Bernie said so." But the lever here is the authority of Bernie. However, the substance of the premise is a statement (a value, since it's about judgment), and the conclusion is also a value. 
+
+But according to the valid constraint patterns for beta, it requires similarity, analogy, or equality levers. But in this case, the lever is the authority of Bernie. The argument is that because Bernie (an authority?) said it, Hillary has bad judgment. But that's an appeal to authority. 
+
+Wait, the lever here is the authority of Bernie Sanders. But the form is beta (a is X because b is X). The premise is that Bernie said something, and the conclusion is that Hillary has bad judgment. But the lever is the authority of Bernie. However, the valid beta pattern requires a comparison between a and b. So if the argument is that Hillary has bad judgment because Bernie (who is an authority) said so, then the lever is the authority. But according to the beta constraints, the lever should be similarity, analogy, or equality. 
+
+Alternatively, maybe the form is alpha. If the conclusion is Hillary has bad judgment (subject a, predicate X), and the premise is that Bernie said so (subject a, predicate Y?), but that doesn't fit. Wait, maybe the form is alpha, where the same subject is involved. But the premise is about Bernie, the conclusion is about Hillary. So that's not alpha. 
+
+So the form is beta, but the lever is appeal to authority, which is a fallacy. The valid beta lever requires a comparison between a and b, but here the lever is the authority of the person making the statement. Therefore, this is an appeal to authority (classification 1). 
+
+But wait, the statement is just reporting that Bernie said something. It's not necessarily arguing that Hillary has bad judgment because of Bernie's authority. Unless the argument is that because Bernie (an authority) said so, Hillary has bad judgment. But the original statement is just a report, not an argument. However, the user might be considering the statement as an argument where the premise is Bernie's statement and the conclusion is Hillary's judgment. 
+
+In that case, the lever is the authority of Bernie, which is an appeal to authority (1). But the beta form requires a similarity or analogy between the two. So the lever is not a similarity but an authority. Therefore, the constraint is violated, leading to appeal to authority. 
+
+So the classification would be 1.

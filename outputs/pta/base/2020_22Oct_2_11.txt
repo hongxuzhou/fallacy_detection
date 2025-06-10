@@ -1,0 +1,19 @@
+Okay, let's tackle this statement: "Now, you're saying you're gonna get it done because you're all talk and no action, Joe." 
+
+First, I need to break it down. The conclusion here seems to be that Joe is not going to get things done. The premise is that Joe is all talk and no action. 
+
+Looking at the form, the structure is "Joe is not getting things done because he's all talk and no action." So the subject here is Joe, and the predicate is about his actions. Wait, the form comparison: the conclusion is about Joe's ability to get things done (subject Joe, predicate "get it done"), and the premise is about Joe being all talk and no action (same subject, different predicate). So that's an alpha form (same subject, different predicate). 
+
+Now, substance: the conclusion is a value judgment (V) because it's about Joe's character or ability. The premise is also a value statement (V) since it's about his behavior being talkative and inactive. 
+
+The lever here is the connection between "all talk and no action" and "not getting things done." The argument is implying that because Joe is talkative without action, he can't get things done. 
+
+But according to the valid constraints for alpha form (same subject, different predicate), the lever should be evaluative or principled. However, in this case, the lever is a comparison of characteristics. Wait, maybe the lever is an evaluative one? Or is it a false cause?
+
+Wait, the lever here is the assumption that being all talk and no action (a negative trait) leads to not getting things done. But is there a causal link? The argument is attacking Joe's character (ad hominem) rather than addressing the actual claim. 
+
+Looking at the fallacies, ad hominem is when you attack the person instead of the argument. Here, the statement is not directly addressing the argument but attacking Joe's character by calling him all talk and no action. That's a general ad hominem, which is classified as fallacy 2. 
+
+Alternatively, maybe it's an appeal to emotion? But the statement is more about attacking the person's character. 
+
+So the primary violation is the ad hominem fallacy. The form is alpha, but the lever is not a valid evaluative or principled one. Instead, it's an attack on the person's character, which is a structural violation of the alpha form's lever requirements. Therefore, classification 2.

@@ -1,0 +1,4 @@
+{
+    "analysis": "The statement attributes the economic crisis to 'policies of the last eight years' and 'Washington's unwillingness to tackle problems.' This is a causal claim (lever: causation) but lacks evidence of a direct link between these factors and the crisis. The form is Gamma (a is X because b is Y), but the premises (policy and inaction) are not proportionally linked to the conclusion (economic crisis) through a valid parallel relationship. The argument assumes causation without establishing a proper causal mechanism, violating the constraint for Gamma forms. This is a classic False Cause (3) fallacy.",
+    "classification": 3
+}

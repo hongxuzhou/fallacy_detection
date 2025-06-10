@@ -1,0 +1,23 @@
+Okay, let's tackle this statement: "We have to practice what we preach." Hmm, first I need to break it down using the PTA framework. 
+
+So, the user wants me to identify the form, substance, lever, and check for fallacies. Let me start by figuring out the conclusion and premise. The statement seems like a general advice or a moral statement. Maybe the conclusion is that we should practice what we preach, and the premise is implied that it's necessary or right to do so.
+
+Now, looking at the form. The structure here is a bit tricky. The subject is "we" and the predicate is "practice what we preach." Wait, maybe it's an alpha form? Because the subject is the same in both parts. Wait, the form is about how subjects and predicates are configured. Let me recall: alpha is same subject, beta same predicate, gamma different, delta meta-level. 
+
+The statement is a single sentence. Is it making a claim that requires a premise? Maybe it's a value statement. The substance here is Value (V) because it's about what should be done. 
+
+The lever here is the connection between the parts. The phrase "practice what we preach" might be implying that there's a standard or principle (preach) that should be followed (practice). But how does that connect? The lever here might be an evaluative one, like a principle. 
+
+Wait, the form could be alpha if the same subject is used. Let me think: "We have to practice (X) because we preach (Y)." But the original statement is just a single statement, not a full argument. Maybe it's a standalone value statement. 
+
+Alternatively, maybe the form is gamma, where the subject and predicate are different. But I'm not sure. Let me check the constraints again. 
+
+The lever for alpha forms depends on the substance. If it's a value statement (V), then the lever should be evaluative or principled. But the statement itself is more of a moral imperative. 
+
+Wait, the statement might not be a full argument but a slogan. The user mentioned that slogans (classification 5) are brief phrases used to provoke excitement. This statement is a common slogan, like "Do as I say, not as I do," but in reverse. It's a catchy phrase that might be used to enforce a standard, but it's not necessarily a logical argument. 
+
+Looking at the fallacies, if it's a slogan, then classification 5. But maybe there's another fallacy. Wait, the user's example might be using a slogan as a fallacy. The statement is a general advice, but maybe it's not a valid argument. Since the user's output is supposed to be the primary violation, if it's a slogan, then classification 5. 
+
+Alternatively, maybe it's an appeal to authority or something else. But the statement doesn't mention any authority. It's more of a moral statement. So the primary violation is that it's a slogan, which is classification 5. 
+
+So the analysis would be that the statement is a slogan, using a brief phrase to provoke a reaction, hence classification 5.

@@ -1,0 +1,4 @@
+{
+    "analysis": "The statement presents job loss statistics as evidence of negative consequences, implying causation between job losses and their impact. The form is alpha (same subject, different predicate), with both premises and conclusion as facts (FF). The lever is supposed to be causal (as required for FF), but the argument assumes a direct causal link between job losses and consequences without establishing a clear causal mechanism. This violates the constraint for alpha form, leading to a false cause fallacy.",
+    "classification": 3
+}
