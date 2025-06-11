@@ -1,0 +1,29 @@
+Okay, let me try to work through this step by step. First, I need to extract the context for the given statement. The context is from a 2004 debate, and the speaker is a candidate (probably George W. Bush, since the context mentions "the president" and the mention of Social Security). The target statement is about the president not explaining where the $2 trillion comes from, and the speaker is criticizing the president's financial promises.
+
+So for STEP 1, the context extraction: The speaker is a candidate (probably Bush) responding to the president's (probably Kerry) proposal about Social Security. The immediate argumentative goal is to criticize the president's financial plan by pointing out unexplained funding sources, implying it's irresponsible.
+
+Now for STEP 2: Fallacy analysis. The statement is questioning where the $2 trillion comes from, suggesting the president hasn't justified the funding. The speaker is attacking the president's financial credibility. 
+
+Looking at the PTA framework. The form here seems to be a Beta form, where the speaker is comparing the president's financial promises to something else, but maybe not. Wait, the speaker is not directly comparing two things but is pointing out a lack of explanation. Alternatively, maybe it's an appeal to authority or false cause. 
+
+Wait, the speaker is saying the president hasn't explained the funding, implying that the plan is flawed because the president can't provide the source. This might be an ad hominem, attacking the president's credibility rather than the policy itself. But the speaker is not directly attacking the person but their ability to explain the funding. Alternatively, it could be an appeal to authority if the speaker is implying that the president's lack of explanation makes the plan invalid. 
+
+Alternatively, the speaker is using the lack of explanation as a reason to doubt the plan, which might be a false cause. Wait, the form here is Alpha (a is X because a is Y). The president's plan (a) is being criticized because he hasn't explained the funding (Y). But the lever here is the lack of explanation, which isn't a valid lever. Or maybe it's an appeal to authority if the speaker is suggesting that the president's inability to explain the funding makes the plan invalid. 
+
+Wait, the speaker is not providing evidence but is pointing out that the president hasn't provided the source. This could be an appeal to authority if the speaker is implying that the president should have provided the authority (like a source) for the funding. But the speaker is not citing an authority but is instead pointing out the absence of explanation. 
+
+Alternatively, this might be an ad hominem, attacking the president's credibility. The speaker is saying that because the president hasn't explained the funding, the plan is bad. That's attacking the person's ability to explain, which could be an ad hominem (bias ad hominem, implying the president is personally benefiting from the stance). 
+
+But the classification priority rules say that slogans come first, then ad hominem. The statement here isn't a slogan. It's a direct criticism. The speaker is not using emotional language but is pointing out a lack of explanation. However, the speaker's argument is that the plan is flawed because the president can't justify the funding. That might be a false cause, assuming that the lack of explanation implies the plan is invalid. But that's not a direct causal link. 
+
+Alternatively, the speaker is using the absence of explanation as a reason to doubt the plan, which could be an appeal to authority if they're suggesting that the president should have provided an expert source. But the speaker is not citing an authority, just pointing out the lack. 
+
+Wait, the speaker is not providing evidence but is attacking the president's ability to explain. That's more of an ad hominem, attacking the president's character or credibility. The classification rules say ad hominem is second priority. So maybe the fallacy here is ad hominem (type 2). 
+
+Alternatively, the speaker is using the fact that the president hasn't explained the funding as a reason to say the plan is bad, which could be a false cause if they're assuming that the lack of explanation implies the plan is invalid. But that's a stretch. 
+
+Another angle: the speaker is asking where the money comes from, implying that the president's plan is not viable because he can't provide the source. This is attacking the plan's feasibility by questioning the president's explanation, which is an ad hominem (bias ad hominem, implying the president is personally benefiting from the stance). 
+
+So, based on the PTA framework, the form here is Alpha (a is X because a is Y), where the president's plan (a) is being criticized because he hasn't explained the funding (Y). The lever here is the lack of explanation, which isn't a valid lever. However, the speaker is not providing a valid reason but is instead attacking the president's ability to explain, which is an ad hominem. 
+
+Therefore, the fallacy is Ad Hominem (type 2).

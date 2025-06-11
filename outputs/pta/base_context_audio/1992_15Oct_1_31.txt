@@ -1,0 +1,13 @@
+Okay, let's tackle this step by step. First, I need to do the context extraction. The context is from a 1992 debate, and the speaker is talking about creating jobs in the inner city. The specific statement in question is: "But since they're bred from childhood to fight with one another rather than get results, you know, I would be glad to drop out and spend a little time and see if we couldn't build some bridges. Now, results is what counts. The president can't order Congress around."
+
+So, the speaker is likely a presidential candidate, maybe Ross Perot, since that's the 1992 debate context. The main claim here is about creating jobs through building bridges, implying that the other side (presumably the president and Congress) isn't working together. The immediate argumentative goal is to criticize the current approach and suggest a different method.
+
+Now, moving to fallacy analysis. The statement uses emotional language like "fight with one another" and "drop out and spend a little time," which might be an appeal to emotion. But I need to check the PTA framework. 
+
+Looking at the structure: The speaker is making a claim that the other side is focused on fighting rather than results. The lever here is the comparison between fighting and getting results. The form seems to be Beta, where the speaker is comparing the other side's actions (fighting) to the desired outcome (results). However, the lever is emotional, suggesting that because they fight, they don't get results. But is there a proper lever? The lever here is the emotional appeal that fighting leads to no results. 
+
+Wait, the statement might be using an ad hominem. The speaker is attacking the other side's character (bred to fight) rather than their policies. That fits the Ad Hominem (2) category. The form is inverse gamma, attacking the arguer's position by their nature. The key is that the speaker is not addressing the actual policies but the inherent nature of the other side. 
+
+Alternatively, it could be an appeal to emotion (0) if the emotional language is the main lever. But the primary focus here is attacking the other side's character, which is more ad hominem. The mention of "drop out and spend a little time" might be a slogan, but the main issue is the attack on the opponent's character. 
+
+So, based on the classification priority rules, Ad Hominem is second, so if there's a clear attack on the person, that's the primary fallacy. The statement says "they're bred from childhood to fight," which is a character attack. Therefore, the classification should be 2 (Ad Hominem).

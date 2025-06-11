@@ -1,0 +1,4 @@
+{
+    "analysis": "The statement compares wage growth under two administrations, implying causation between the administration's policies and wage increases without establishing a direct causal link. This violates the False Cause (3) constraint by mistaking correlation (higher wage growth under Eisenhower) for causation (administration's policies caused the growth).",
+    "classification": 3
+}

@@ -73,7 +73,7 @@ def evaluate_predictions(csv_path, output_dir="evaluation_outputs"):
         cm, 
         annot=True, 
         fmt='d', 
-        cmap='Greens',
+        cmap='Blues',
         xticklabels=FALLACY_LABELS,
         yticklabels=FALLACY_LABELS,
         cbar_kws={'label': 'Count'},

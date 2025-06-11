@@ -1,0 +1,4 @@
+{
+    "analysis": "The statement uses the increase in unemployment as a factual claim (F) to argue that economic deterioration (a) will weaken the U.S. globally (X). This follows an Alpha-form (a is X because a is Y) with a causal lever (economic decline \u2192 global weakness). However, the lever is unsupported; there is no evidence provided to establish a direct causal relationship between economic deterioration and global weakening. This violates the Alpha-FF constraint requiring a causal/effect lever, making it a False Cause (3) fallacy.",
+    "classification": 3
+}

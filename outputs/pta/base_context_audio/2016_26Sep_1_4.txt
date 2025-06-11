@@ -1,0 +1,43 @@
+Okay, let's tackle this step by step. First, I need to extract the context. The user provided a context from a 2016 debate. The speaker is a U.S. presidential or vice-presidential candidate, probably Hillary Clinton or Donald Trump since that's the year. The context mentions the speaker talking about different views on economic growth, investments, and jobs. Then the statement is: "I have a different experience. My father was a small-businessman. He worked really hard."
+
+So, for STEP 1, the context extraction needs to identify who is making the statement (speaker's role), what claim they're advancing, and why it matters. The speaker is likely a candidate (maybe Trump, given the mention of small business), responding to a claim about economic policies. The claim is that their experience with a small businessman father gives them a different perspective. The immediate goal is to establish credibility by personal experience.
+
+Now, STEP 2: Fallacy analysis. The statement is about personal experience. Let's check the PTA framework. The form here is Alpha (same subject), because the speaker is using their own experience (father being a small businessman) to support their argument. The substance is Value (V) since it's about personal experience and perspective. The lever here is the personal experience as a basis for credibility.
+
+Looking at the valid constraints for Alpha (a is X because a is Y). For Alpha, if it's a Value (V) substance, the lever should be evaluative or principled. The speaker is using their personal experience (father's work) as a lever. But is that a valid lever? The problem is that personal experience isn't a direct evaluative or principled lever. It's more of an appeal to authority or anecdotal evidence. However, according to the PTA rules, Appeal to Authority (1) is when someone cites an authority without proper evidence. But here, the speaker is using their own experience, not an external authority. Wait, maybe it's an Appeal to Emotion? The statement is emotional, talking about hard work and personal experience, which could be seen as an emotional appeal. But the user's classification priority says Slogans first, then Ad Hominem, etc.
+
+Wait, the statement is "I have a different experience. My father was a small-businessman. He worked really hard." The speaker is trying to establish their credibility by personal experience. This might be an Ad Hominem if they are attacking the opponent's character by implying their experience is better. But in this case, the speaker is using their own experience as a lever. Alternatively, it could be a False Cause if they are implying that their experience directly leads to better economic policies. But the statement doesn't explicitly make that causal link. 
+
+Alternatively, it could be an Appeal to Emotion because the speaker is using emotional elements like hard work and personal experience to evoke a positive response. However, the key here is the lever. If the lever is emotional (like pride in personal experience), that would be an Appeal to Emotion (0). But according to the PTA rules, for Alpha, if it's a Value (V) substance, the lever should be evaluative or principled. Here, the lever is personal experience, which is more of a personal anecdote rather than a principled lever. So maybe it's a False Cause if they're implying that their experience (father being a small businessman) directly causes their economic policies to be better. But the statement doesn't explicitly state that. 
+
+Alternatively, the speaker is using their personal experience as a form of authority, which could be an Appeal to Authority (1) if they're citing their own experience as an expert. But the problem is that the speaker isn't citing an external authority, just their own experience. So maybe it's not Appeal to Authority. 
+
+Looking at the classification priority, Slogans are first. The statement is a personal anecdote, which isn't a slogan. Then Ad Hominem: the speaker is not attacking the opponent's character, but using their own experience. So maybe not Ad Hominem. Appeal to Emotion: the statement does use emotional elements (working hard, personal experience) as a lever. So the lever here is emotional, which would be Appeal to Emotion (0). 
+
+But wait, the PTA pattern for Appeal to Emotion includes when emotion replaces the proper lever. In this case, the speaker is using their personal experience (which is a form of authority) but the lever is emotional. Wait, the lever is the connection between the non-common elements. The speaker is saying that their experience (father's work) is a reason why they have a different perspective. The lever here is the personal experience, which is a form of authority (their own experience), but maybe the speaker is using emotional appeal (pride in their father's work) as the lever instead of a logical connection. 
+
+Alternatively, the speaker is using their personal experience as a form of authority, which would be an Appeal to Authority (1) if the authority is not relevant. But since it's their own experience, maybe it's not. 
+
+Hmm. The classification priority says that if it's a slogan, it's first. But this isn't a slogan. Then Ad Hominem. But the speaker isn't attacking the opponent. Then Appeal to Authority. If the speaker is using their own experience as an authority, that's a non-expert source. Wait, the PTA for Appeal to Authority says that Z must be a relevant expert. Here, the speaker is using their own experience, which might not be an expert. So that could be an Appeal to Authority (1). 
+
+But the user's example in the classification for Appeal to Authority includes "q because [expert/majority/famous person] says q". Here, the speaker is using their own experience, not an external authority. So maybe it's not Appeal to Authority. 
+
+Alternatively, the speaker is using their personal experience as a form of authority, which could be considered a non-expert source. But the PTA rules for Appeal to Authority require that Z is an expert. Since the speaker's experience isn't an expert, but their own, maybe it's not. 
+
+Wait, maybe this is an Appeal to Emotion. The speaker is evoking pride in their father's hard work, which is an emotional appeal. So the lever here is emotional (pride), which would be an Appeal to Emotion (0). 
+
+But the PTA pattern for Appeal to Emotion in Alpha is "a is X because a makes us feel Y". Here, the speaker is saying that their experience (father's work) is a reason for their perspective. The lever is their personal experience, which is a form of authority, but the emotional aspect is the pride in their father's work. So maybe the emotional aspect is the lever. 
+
+Alternatively, the speaker is using their experience as a lever, which is a form of authority. But since it's their own experience, not an expert, it's not a valid authority. So that would be Appeal to Authority (1). 
+
+But the user's classification priority says that if it's a slogan, then that's first. Since this isn't a slogan, then check for Ad Hominem, which it isn't. Then Appeal to Authority. But if the speaker is using their own experience as a form of authority, that's a non-expert source, which would be an Appeal to Authority (1). 
+
+Alternatively, maybe it's a False Cause. The speaker is implying that their experience (father's work) leads to their economic policies, which is a causal link. But the statement doesn't explicitly state that. 
+
+I think the primary fallacy here is Appeal to Emotion (0) because the speaker is using emotional elements (pride in father's hard work) to support their claim, which is an emotional appeal. But I need to check the PTA constraints. 
+
+In the Alpha form, the lever should be evaluative or principled if it's a Value (V) substance. The speaker's personal experience is a form of authority, but the lever is emotional. So the lever is not properly connected. Therefore, it's an Appeal to Emotion (0). 
+
+Alternatively, maybe it's an Ad Hominem, but the speaker isn't attacking the opponent. 
+
+So, the classification would be Appeal to Emotion (0).

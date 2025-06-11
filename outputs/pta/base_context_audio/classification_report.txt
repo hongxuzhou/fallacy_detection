@@ -1,0 +1,16 @@
+Evaluation Results for: /Users/hongxuzhou/Documents/GitHub/fallacy_detection/outputs/pta/base_context_audio/predictions.csv
+Total samples evaluated: 120
+============================================================
+
+                     precision    recall  f1-score   support
+
+  Appeal to Emotion     0.1351    0.2500    0.1754        20
+Appeal to Authority     0.1111    0.0500    0.0690        20
+         Ad Hominem     0.4375    0.3500    0.3889        20
+        False Cause     0.2549    0.6500    0.3662        20
+     Slippery Slope     0.0000    0.0000    0.0000        20
+            Slogans     0.5714    0.2000    0.2963        20
+
+           accuracy                         0.2500       120
+          macro avg     0.2517    0.2500    0.2160       120
+       weighted avg     0.2517    0.2500    0.2160       120
