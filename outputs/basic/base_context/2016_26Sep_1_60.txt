@@ -1,0 +1,15 @@
+Okay, let's tackle this. The statement is from a 2016 presidential debate, and I need to figure out what fallacy it's using. The user provided the statement and some context.
+
+First, the statement mentions 3,000 shootings and 4,000 deaths in Chicago during Obama's presidency, then says that stop-and-frisk is needed. The context includes talking about law and order, targeting African-American and Hispanic communities, and criticizing politicians for allowing these issues. 
+
+So, the speaker is using the high numbers of shootings and deaths to argue for stop-and-frisk. But wait, the numbers might be presented as evidence, but maybe they're being used to evoke an emotional response. The mention of "bad people" and the focus on minority communities could be an appeal to emotion. The speaker is trying to stir fear about the situation in Chicago, which is Obama's hometown, to justify the policy. 
+
+Alternatively, is there an appeal to authority? Not really, because they're not citing an expert. It's more about the emotional impact of the numbers. The speaker is also labeling the people in the communities as "bad" and focusing on the negative portrayal of black communities, which might be name-calling or labeling. But the main point here is using the emotional weight of the statistics to push for a policy. 
+
+Wait, the numbers could be a false cause? Like assuming that the high crime rates are due to the policies of Obama, but the speaker is attributing the problem to the current situation and suggesting stop-and-frisk as a solution. However, the fallacy here might be more about emotional appeal. 
+
+Also, the statement mentions "these are people that are bad people" which could be name-calling, but the main argument is using the emotional impact of the numbers to justify stop-and-frisk. The speaker is trying to create fear and sympathy to push for a policy. So maybe Appeal to Emotion (0) with loaded language. 
+
+Another angle: the mention of the numbers might be a false cause, but the primary fallacy here is using emotional language to evoke fear and support for stop-and-frisk. The context also includes criticism of politicians for allowing issues, which might be a general ad hominem, but the main statement is more about the emotional appeal. 
+
+I think the main fallacy here is Appeal to Emotion (0), specifically loaded language and maybe flag waving by referring to the minority communities. The speaker is using the emotional weight of the statistics and the negative portrayal of the communities to push the argument. So classification would be 0.
