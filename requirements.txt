@@ -1,5 +1,4 @@
 accelerate==1.7.0
-bitsandbytes==0.44.1
 einops==0.8.1
 filelock==3.18.0
 matplotlib==3.10.3
