@@ -1,0 +1,25 @@
+Okay, let's tackle this step by step. The user wants me to analyze the given statement using pragma-dialectical argumentation rules. The statement is from a 1996 debate, and the speaker is advocating for Bob Dole. The statement in question is: "Clearly, Abraham Lincoln put it best when he said you serve your party best by serving the nation first."
+
+First, I need to check the context. The speaker mentions working with both Democrats and Republicans, criticizes Bob Dole for going after people personally, then quotes Lincoln. The next part is supporting Bob Dole's election. The tone is emotional, with high arousal and dominance.
+
+Now, looking at the statement itself. The key part is quoting Lincoln to support serving the nation over the party. But wait, the speaker is using Lincoln's quote to justify their own stance. Let me check the PD rules.
+
+The main issue here might be the relevance of the argument. The speaker is using a historical figure's quote to support their point. But does that relate to the current debate? The statement seems to be using Lincoln's quote as an authority. That might fall under the Appeal to Authority (1) category. But let me check the PD rules again.
+
+Looking at the Burden of Proof Rule: the speaker is advancing a standpoint (supporting Bob Dole) and using Lincoln's quote as a premise. But is there a violation here? Maybe not directly. The Relevance Rule says that standpoints must be defended with relevant argumentation. The quote about Lincoln might be relevant, but maybe it's not directly supporting the argument. Alternatively, the speaker is using Lincoln's authority to bolster their argument, which could be an appeal to authority.
+
+Wait, the statement says "Abraham Lincoln put it best when he said..." This could be an appeal to authority because the speaker is citing Lincoln as an authority on the matter. But the problem is that the speaker is using Lincoln's quote to support their own argument, which might not be directly relevant. However, the main PD rule violation here might be the Appeal to Authority (1) because the speaker is using an authority figure's statement without providing evidence that Lincoln's quote is applicable here. 
+
+Alternatively, maybe the speaker is using the quote to shift the burden of proof. But the Burden of Proof Rule violation would be if the speaker is claiming the quote is self-evident. However, the statement is more about using Lincoln's authority to support the argument, which fits the Appeal to Authority category. 
+
+Another angle: the speaker is using a historical figure to support their point, which might be an appeal to authority. The primary PD rule violation here would be the Appeal to Authority (1) because the speaker is citing an authority (Lincoln) without providing evidence that his statement is relevant or applicable to the current situation. 
+
+But wait, the statement is not just citing an authority but using a quote from Lincoln to support the idea that serving the nation is better than serving the party. The speaker is using this quote to argue for Bob Dole's candidacy. However, the PD rules don't have a direct rule against appeal to authority, but the Output Categories include Appeal to Authority (1) as a possible classification. 
+
+Alternatively, could this be a Straw Man? No, because the speaker isn't distorting the opponent's position. The main issue is using Lincoln's authority. So, the primary fallacy would be Appeal to Authority (1). 
+
+Wait, the speaker is also using the quote to assert that Lincoln's statement is the best, which might be an appeal to authority. Therefore, the classification would be Appeal to Authority (1). 
+
+But let me check the PD rules again. The Appeal to Authority is under the Relevance Rule as an irrelevant argument. The Relevance Rule violation includes appealing to authority without proper reasoning. So, the primary PD rule violation here is the Relevance Rule, and the fallacy is Appeal to Authority (1). 
+
+So the answer should be classification 1 (Appeal to Authority). The speaker uses Lincoln's authority to support their argument without providing relevant evidence or reasoning, thus violating the Relevance Rule by appealing to authority.

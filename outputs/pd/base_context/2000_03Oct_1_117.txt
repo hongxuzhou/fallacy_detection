@@ -1,0 +1,21 @@
+Okay, let's tackle this step by step. The user wants me to analyze the given statement using pragma-dialectical argumentation rules. The statement is "A promise made will be a promise kept." from a 2000 presidential debate. 
+
+First, I need to check the context. The context mentions Social Security revenues exceeding expenses until 2015, so retirees will get their promises. Then there's a mention of scaring voters and the statement about allowing younger workers to take their money. The statement in question is a general assertion about keeping promises.
+
+Now, applying the PD rules. Let me look at each rule. The main issue here is the statement's relevance. The speaker is talking about Social Security and promises to retirees, then shifts to allowing younger workers to take their money. The statement "A promise made will be a promise kept" seems to be a general principle, but in the context, it's used to support the idea that retirees will get their promises. However, the problem might be that this statement is a vague generalization. 
+
+Looking at the PD rules, the Relevance Rule (Rule 4) says standpoints must be defended with relevant argumentation. The statement might be an irrelevant argument if it's not properly connected to the Social Security discussion. But wait, the statement is actually a general principle. However, in the context, the speaker is using it to support the claim about Social Security. But the problem could be that the statement is a slogan, which is a form of argument by repetition. 
+
+Alternatively, the statement might be an appeal to emotion or authority. Wait, the statement itself is a general principle, not an appeal to emotion. But the context includes a part where the speaker is addressing voters who might be scared, so maybe the statement is meant to evoke trust. However, the primary issue here is that the statement is a slogan. 
+
+Looking at the Output Categories, Slogans (5) are brief, striking phrases used to provoke excitement. The statement "A promise made will be a promise kept" is a concise, memorable phrase that's used to reinforce a point, possibly to appeal to the audience's sense of trust. It's not a logical argument but a rhetorical device. 
+
+So, according to the rules, the Relevance Rule might be violated if the statement isn't relevant. But maybe the main issue is that it's a slogan. The Starting Point Rule (Rule 6) talks about begging the question, but that's not the case here. The Language Use Rule (Rule 10) mentions vagueness, but the statement is clear. 
+
+Alternatively, the Burden of Proof Rule (Rule 2) could be involved if the speaker is claiming the statement as self-evident without proof. However, the statement is a general principle, which might be considered self-evident. But the primary issue here is that the statement is a slogan. 
+
+Wait, the Output Category for Slogans (5) is about using a brief phrase to provoke excitement. The statement fits that as it's a concise, memorable line meant to reinforce the argument. So the primary classification would be Slogans (5). 
+
+But let me check again. The statement is a general principle, but in the context, it's used to support the claim about Social Security. However, the statement itself isn't an argument but a slogan. Therefore, the primary PD rule violation is the Language Use Rule (Rule 10) for vagueness? No, the statement isn't vague. Alternatively, the Relevance Rule (Rule 4) if it's not relevant. But the speaker is using it to support their point. 
+
+Wait, maybe the main issue is that the statement is a slogan. The Output Category for Slogans (5) is the correct one. The statement is a brief, striking phrase used to provoke excitement, which fits the Slogans category. Therefore, the primary classification is 5.

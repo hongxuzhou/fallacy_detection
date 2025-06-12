@@ -1,0 +1,9 @@
+Okay, let's tackle this step by step. The user wants me to analyze the given statement using pragma-dialectical argumentation rules and identify the primary fallacy. Let me start by understanding the statement and context.
+
+The statement is: "Number two, Bernie Sanders said that Hillary Clinton has very bad judgment." The context is from a 2016 debate, and the speaker is likely a Republican candidate, given the mention of Obamacare and the tone. The speaker is attacking Bernie Sanders by citing Hillary Clinton's judgment. 
+
+First, I need to check the Pragma-Dialectical rules. The key here is to see which rule is violated. The statement is attacking Hillary Clinton's judgment, which is a personal attack on her character. According to the Freedom Rule, parties must not prevent each other from advancing or questioning standpoints. Violations include ad hominem attacks. 
+
+Looking at the output categories, Ad Hominem (2) is a possible fit. The statement isn't addressing the actual argument but instead attacking the person's judgment. That's a classic ad hominem. The speaker is trying to discredit Hillary Clinton's position by undermining her character, which is a violation of the Standpoint Rule (attacking the actual standpoint) and the Freedom Rule (discrediting). However, the primary fallacy here is Ad Hominem because it's a direct attack on the person's character rather than their argument. 
+
+The classification would be Ad Hominem (2). The justification is that the statement attacks Hillary Clinton's judgment (a personal trait) instead of addressing her policy arguments, which violates the Standpoint Rule and falls under the Ad Hominem category.

@@ -1,0 +1,21 @@
+Okay, let's tackle this step by step. The user wants me to analyze the given statement using pragma-dialectical argumentation. The statement is from a 2016 debate, and the context mentions that the speaker's father was a small-businessman. The statement in question is: "You know, Donald was very fortunate in his life, and that's all to his benefit. He started his business with $14 million, borrowed from his father, and he really believes that the more you help wealthy people, the better off we'll be and that everything will work out from there. I don't buy that."
+
+First, I need to check the context. The speaker is contrasting their own experience with Donald's. The key part here is the mention of Donald starting his business with $14 million borrowed from his father. The speaker is implying that Donald's success is due to luck and that his belief in helping wealthy people is flawed.
+
+Now, applying the PD rules. Let's look at the rules. The main issue here seems to be attacking Donald's circumstances rather than his argument. The speaker is talking about Donald's personal fortune and family connections, which might be a form of ad hominem. But wait, the statement also mentions that Donald believes helping wealthy people is better. The speaker dismisses that belief, but is that a direct attack on the person or their argument?
+
+Looking at the Freedom Rule (Rule 1): Parties must not prevent each other from advancing or questioning standpoints. Violations include ad hominem. The speaker is attacking Donald's personal circumstances (being fortunate, starting with money from his father) rather than addressing his policy stance. That's a classic ad hominem, specifically the "general ad hominem" which attacks the person's character or circumstances instead of their argument. 
+
+Alternatively, maybe the speaker is using a straw man? But the statement isn't distorting the opponent's position. The opponent's position is about helping the wealthy, and the speaker is dismissing it by pointing out Donald's personal wealth. So it's more about attacking the person's situation rather than their argument. 
+
+The Burden of Proof Rule (Rule 2) isn't violated here because the speaker isn't shifting the burden. The Standpoint Rule (Rule 3) might be relevant if the speaker was distorting the opponent's position, but the opponent's position is about helping the wealthy, and the speaker is countering with personal circumstances. 
+
+The Relevance Rule (Rule 4) could be a factor if the argument is irrelevant. However, the speaker is using personal circumstances to question the validity of the policy. This seems more like an ad hominem. 
+
+Looking at the Output Categories, Ad Hominem (2) includes attacks on the character or circumstances of the opponent. The statement attacks Donald's fortune and family background, implying that his belief is based on personal advantage. That fits under Ad Hominem (2), specifically the general ad hominem. 
+
+Another possible angle is the False Cause (3) if the speaker is implying that because Donald is wealthy, his policies are flawed. But that's a stretch. The main issue is attacking the person's circumstances rather than the argument. 
+
+So the primary fallacy here is Ad Hominem (2). The speaker is not addressing the actual standpoint about helping the wealthy but instead undermining Donald's personal situation, which is a violation of the Standpoint Rule (Rule 3) by not addressing the actual standpoint. Wait, but the Standpoint Rule violation is about distorting the opponent's position. Here, the speaker isn't distorting the position but attacking the person. So maybe the Freedom Rule (Rule 1) violation is more accurate, as the speaker is discrediting the opponent by attacking their circumstances. 
+
+But the Output Category for Ad Hominem (2) includes attacks on the person's character or circumstances, so that's the right classification. Therefore, the primary fallacy is Ad Hominem (2).

@@ -1,0 +1,27 @@
+Okay, let's tackle this step by step. The user wants me to analyze the given statement using pragma-dialectical argumentation. The statement is from a 1988 presidential debate, so the context is political, likely involving tax policies and deficit reduction.
+
+First, I need to understand the statement: "It's very unfair to the average taxpayer who pays his taxes and pays them on time to permit these monies to go uncollected." The speaker is talking about fairness to taxpayers who pay on time, implying that not collecting taxes is unfair. 
+
+Now, applying the Pragma-Dialectical rules. Let me check each rule. 
+
+Looking at the rules, the main issue here might be the relevance of the argument. The speaker is talking about fairness to taxpayers, but the actual issue is about collecting taxes that are owed. However, the statement seems to shift the focus from the actual problem (tax collection) to the fairness aspect. Wait, but maybe it's about the burden of proof? Or maybe the relevance rule? 
+
+Wait, the statement is about the unfairness of not collecting taxes. But the speaker is suggesting that the government should collect taxes that are owed. However, the statement's focus on "average taxpayer who pays on time" might be a straw man. Wait, no. The opponent's standpoint might be that the government should collect taxes, but the speaker is emphasizing the unfairness to those who pay on time. Wait, maybe not. 
+
+Alternatively, the statement might be an appeal to emotion. The speaker is using emotional language like "very unfair" and "average taxpayer" to evoke sympathy. That could fall under Appeal to Emotion (0). But let me check the rules again. 
+
+Looking at the Relevance Rule (Rule 4): Standpoints must be defended with relevant argumentation. Violations include irrelevant arguments, appeals to emotion, or authority without reasoning. The statement here uses emotional language ("very unfair") to argue that not collecting taxes is wrong. But is that irrelevant? The actual argument is about the fairness of tax collection. However, if the argument is about the necessity of collecting taxes, then the emotional appeal might be an irrelevant argument. But maybe the speaker is trying to make the audience feel sympathy for taxpayers, which could be an appeal to emotion. 
+
+Alternatively, maybe the speaker is shifting the burden of proof. If the opponent's stance is that taxes should be collected, the speaker is not providing evidence but instead using emotional language. Wait, the Burden of Proof Rule (Rule 2) says that the party advancing a standpoint must defend it when asked. If the speaker is saying that it's unfair to not collect taxes, they should provide evidence for why it's unfair. Instead, they use emotional language, which might be a violation of the Relevance Rule by appealing to emotion. 
+
+So, the primary PD rule violation might be the Relevance Rule (Rule 4), with the violation being an appeal to emotion (0). 
+
+Alternatively, is there another rule? Let me check again. The statement is about the fairness to taxpayers. The speaker is not attacking the opponent's position (so not Ad Hominem), but rather using emotional language to argue the point. So, the appeal to emotion (0) would fit here. 
+
+Therefore, the classification would be Appeal to Emotion (0). The justification is that the statement uses emotional language to evoke sympathy, which is irrelevant to the actual argument about tax collection, thus violating the Relevance Rule. 
+
+Wait, but maybe the speaker is making a valid point about fairness. However, the key is whether the argument is relevant. If the argument is that not collecting taxes is unfair, then the emotional appeal might be a way to make the argument more persuasive, but if it's not relevant, then it's a fallacy. 
+
+Alternatively, maybe the speaker is using loaded language ("very unfair") which is a form of appeal to emotion. So, according to the Output Categories, Appeal to Emotion (0) includes loaded language. 
+
+Yes, that seems right. So the primary classification is Appeal to Emotion (0), based on the violation of the Relevance Rule (4) by using emotional language.

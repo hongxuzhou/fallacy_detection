@@ -1,0 +1,17 @@
+Okay, let's tackle this step by step. The user wants me to analyze a statement from a presidential debate using pragma-dialectical argumentation. The goal is to identify the primary fallacy and classify it into one of the six categories. 
+
+First, I need to look at the statement: "You know, Donald was very fortunate in his life, and that's all to his benefit. He started his business with $14 million, borrowed from his father, and he really believes that the more you help wealthy people, the better off we'll be and that everything will work out from there. I don't buy that."
+
+The context mentions that the speaker is contrasting their own experience with the opponent's (Donald Trump's). The speaker's father was a small businessman, implying a different background. The tone is emotional, with high arousal and dominance.
+
+Step 0: Context Check. The speaker is likely a candidate in the 2016 debate, maybe Hillary Clinton, since the date is 2016-09-26. The context is about differing perspectives, with the speaker's father being a small businessman. The statement is attacking Trump's background and his beliefs.
+
+Step 1: Detection. What's problematic here? The speaker is attacking Trump's personal circumstances and beliefs rather than addressing the actual arguments. The statement mentions Trump's fortune, the $14 million, and his belief in helping wealthy people. This seems like an attack on Trump's character or background instead of his policies. 
+
+Looking at the PD rules, the Freedom Rule (Rule 1) says parties must not prevent each other from advancing or questioning standpoints. Violations include ad hominem. The speaker is attacking Trump's personal life and financial situation, which is a classic ad hominem. Also, the Burden of Proof Rule (Rule 2) isn't violated here because the speaker isn't evading proof but is instead attacking the person. The Standpoint Rule (Rule 3) is about addressing the actual standpoint. The speaker isn't directly addressing Trump's policies but his personal beliefs. So the main violation is Rule 1, Ad Hominem. 
+
+Step 2: Classification. The primary PD rule violation is Ad Hominem (2). The Output Category for Ad Hominem is 2. 
+
+Step 3: Justification. The statement attacks Trump's personal fortune and background rather than his policy positions. This violates the Freedom Rule by discrediting the opponent's position through personal attacks, which is a direct ad hominem. The speaker doesn't engage with the actual arguments but instead undermines the opponent's credibility. This fits the Ad Hominem category, specifically the general ad hominem where the person's character is attacked.
+
+I need to check if there's any other PD rule violation. The Relevance Rule (Rule 4) might be involved if the argument is irrelevant, but the main issue here is the personal attack. The other rules like Burden of Proof aren't applicable here. The primary fallacy is Ad Hominem (2), so the classification is 2.

@@ -1,0 +1,9 @@
+Okay, let's tackle this analysis step by step. The user provided a statement from a political debate and wants a pragma-dialectical argumentation analysis. The goal is to identify the primary fallacy, classify it, and justify using a chain of thought.
+
+First, I need to understand the statement: "Now, you're saying you're gonna get it done because you're all talk and no action, Joe." The context is a 2020 debate where the speaker is addressing someone named Joe, probably a political opponent. The speaker is emotional, with high arousal and dominance, which might indicate they're trying to assert control or provoke an emotional response.
+
+Looking at the Pragma-Dialectical rules, I need to check which ones are violated. The statement is attacking Joe's character by calling him "all talk and no action." That sounds like an ad hominem, which is attacking the person instead of their argument. According to the Freedom Rule, parties shouldn't prevent each other from advancing standpoints, and ad hominem is a violation because it discredits the opponent. The speaker isn't addressing Joe's actual policies or actions but is instead undermining his credibility. 
+
+Next, checking the Output Categories. Ad Hominem (2) fits here. The statement uses name-calling ("all talk and no action") which is a form of ad hominem. The emotional tone might also relate to appeal to emotion, but the primary issue here is the personal attack. The other rules like Burden of Proof or Relevance don't seem to apply here. The speaker isn't shifting the burden or using irrelevant arguments. 
+
+So the primary fallacy is Ad Hominem (2). The justification is that the statement attacks Joe's character instead of addressing his arguments, violating the Freedom Rule by trying to silence or discredit him. The emotional tone might be a red herring, but the main issue is the personal attack. Therefore, the classification should be 2.

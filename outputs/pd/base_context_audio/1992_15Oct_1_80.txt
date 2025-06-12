@@ -1,0 +1,11 @@
+Okay, let's tackle this step by step. The user wants me to analyze the given statement using pragma-dialectical argumentation. The statement is from a 1992 presidential debate, and the context mentions that the speaker is talking about the American dream being out of reach for children due to debt. 
+
+First, I need to check the context. The speaker says that it took two generations to double the standard of living when they were a boy, but now it takes twelve generations. Then the statement in question is about children not seeing the American dream because of debt. The tone is emotional, with high arousal and dominance, which might indicate some emotional appeal.
+
+Now, looking at the PD rules. The main issue here might be the emotional tone. The statement uses phrases like "our children will not see the American dream" which could be an emotional appeal. Let me check the relevant rules. Rule 4 is the Relevance Rule, which says arguments must be relevant. Violations include irrelevant arguments, appeals to emotion, or authority. The statement here might be using an appeal to emotion (pathos) to evoke feelings about the future of children, which is not directly relevant to the actual argument about debt. 
+
+Alternatively, looking at the Output Categories, Appeal to Emotion (0) is one of the options. The statement uses emotional language to make the audience feel concern for the children's future, which could be a fallacy. The context also mentions the speaker's tone is emotional, which supports this. 
+
+Another possible angle is the Burden of Proof Rule (Rule 2), but the statement doesn't seem to be shifting the burden. The main issue is the emotional appeal. So the primary violation is Rule 4, which is the Relevance Rule, leading to Appeal to Emotion (0). 
+
+I need to confirm if there's a more fitting category. The statement doesn't mention authority, so Appeal to Authority (1) is out. It's not an ad hominem, false cause, slippery slope, or slogan. The emotional language is the key here. Therefore, the primary classification is Appeal to Emotion (0).

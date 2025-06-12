@@ -1,0 +1,15 @@
+Okay, let's tackle this step by step. The user wants me to analyze the statement "Now, you're saying you're gonna get it done because you're all talk and no action, Joe." from the 2020 presidential debate. 
+
+First, I need to check the context. The statement is part of a conversation where someone is asking why Joe didn't get things done in eight years. The speaker is accusing Joe of being all talk and no action. 
+
+Now, applying the Pragma-Dialectical rules. Let me go through each rule. The main issue here seems to be attacking the person rather than their argument. The statement uses "all talk and no action," which is a personal attack. That makes me think of Ad Hominem. 
+
+Looking at the Freedom Rule: Parties must not prevent each other from advancing or questioning standpoints. The violation here would be if someone is discrediting the opponent. The statement is attacking Joe's character rather than addressing his policies or actions. That fits Ad Hominem (2), which includes name-calling or labeling. 
+
+The Burden of Proof Rule isn't violated here because the speaker isn't shifting the burden. The Standpoint Rule is about addressing the actual standpoint. The speaker isn't distorting Joe's position but rather attacking him personally. The Relevance Rule might be a consideration if the argument is irrelevant, but the main issue is the personal attack. 
+
+The Unexpressed Premise Rule doesn't apply here. The Starting Point Rule is about false premises, which isn't the case. The Validity Rule is about logical structure, which isn't the issue. The Argument Scheme Rule might relate to slippery slope, but that's not here. The Concluding Rule is about withdrawing standpoints, which isn't applicable. The Language Use Rule could be about ambiguity, but the phrase "all talk and no action" is a common idiom, so maybe not. 
+
+So the primary violation is the Freedom Rule through Ad Hominem. The classification would be Ad Hominem (2). The justification is that the statement attacks Joe's character instead of his arguments, which is a direct ad hominem. The other rules aren't as relevant here. 
+
+I need to make sure I'm not missing any other rules. The Relevance Rule might say that the argument is irrelevant, but the main fallacy here is the personal attack. So Ad Hominem is the correct classification.
