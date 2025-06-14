@@ -1,0 +1,4 @@
+{
+    "analysis": "The statement employs an Alpha form (a is X because a is Y) where the conclusion is that the president 'cannot wilt under pressure' (X) due to the premise of 'enormous pressure' (Y). The lever is a causal claim that pressure necessitates resilience to avoid negative consequences (world not being better). However, this violates the Alpha constraint for Policy-Fact (PF) arguments, which require evaluative or principled levers, not unverified causal links. The argument mistakenly assumes that pressure directly causes the need for resilience without establishing a valid causal relationship, leading to a False Cause fallacy (3).",
+    "classification": 3
+}

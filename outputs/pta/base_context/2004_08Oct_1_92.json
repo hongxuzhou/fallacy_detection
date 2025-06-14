@@ -1,0 +1,4 @@
+{
+    "analysis": "The statement uses two specific examples (Afghanistan and Iraq) having free elections to argue that free societies will make the world more peaceful. This is a causal claim (free societies \u2192 peace) supported by anecdotal evidence. The lever is a faulty causal inference, mistaking correlation (free elections in two countries) for causation (free societies inherently lead to peace). The form is Beta (same predicate: free elections), but the analogy between the examples and the general claim is invalid, violating PTA constraints. This falls under False Cause (3) as it misrepresents a correlation as a direct causal relationship.",
+    "classification": 3
+}

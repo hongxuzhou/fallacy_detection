@@ -1,0 +1,17 @@
+Okay, let's tackle this analysis step by step. The statement in question is: "Paul Tsongas, a liberal senator from Massachusetts said the dumbest thing I did was to oppose the capital gains cut." The date is 1988-09-25. 
+
+First, I need to parse the statement to identify the conclusion and premises. The speaker is criticizing Paul Tsongas for opposing the capital gains cut, calling it the "dumbest thing" they did. The context mentions that cutting capital gains puts people to work, references John Kennedy's proposal, and states that it won't cost the government money but will increase revenues and create jobs.
+
+Now, applying the PTA framework. Let's break down the components:
+
+Form: The statement seems to be attacking Tsongas's position by labeling his opposition as "dumbest." This might be an ad hominem because it's attacking the person (Tsongas) rather than the argument itself. The form here is likely a Delta (q because q is Z), but the lever is not a legitimate authority. Instead, it's an emotional attack.
+
+Substance: The statement is a Value (V) judgment about Tsongas's actions. The lever here is the emotional charge of calling something "dumbest," which is an appeal to emotion rather than a logical argument.
+
+Looking at the constraints: For a Delta form, Z should be a legitimate acceptability indicator like expert opinion or evidence. Here, the lever is not an expert or evidence but an emotional label. This violates the Delta constraint, making it an Appeal to Authority (1) if it's citing a non-expert. However, the main issue here is attacking the person rather than the argument, which points to Ad Hominem (2).
+
+Wait, the statement is not directly saying Tsongas is wrong because of his position but is instead calling his action "dumbest." This could be a form of name-calling, which is a sub-type of Ad Hominem. The speaker is using emotional language ("dumbest") to attack Tsongas's character, which is a classic Ad Hominem (Name-calling). 
+
+Checking the classification priority: The statement doesn't seem to be a slogan (has structure), so first check for Ad Hominem. Since it's attacking the person (Tsongas) by labeling his action as "dumbest," which is a personal attack, this fits Ad Hominem (2). 
+
+Also, the use of "dumbest" is emotionally charged, which might touch on Appeal to Emotion (0), but the primary violation here is the personal attack. According to the priority rules, Ad Hominem comes before Appeal to Emotion. So the main fallacy is Ad Hominem (2).
